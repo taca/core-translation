@@ -295,7 +295,7 @@
       </trans-unit>
       <trans-unit id="tl_layout.titleTag.1">
         <source>Here you can overwrite the title tag (defaults to &lt;em&gt;{{page::pageTitle}} - {{page::mainTitle}}&lt;/em&gt;).</source>
-        <target>titleタグの内容(初期値は&lt;em&gt;{{page::pageTitle}} - {{page::mainTitle}}&lt;/em&gt;)を置き換えできます。
+        <target>titleタグの内容(初期値は&lt;em&gt;{{page::pageTitle}} - {{page::mainTitle}}&lt;/em&gt;)を置き換えできます。</target>
       </trans-unit>
       <trans-unit id="tl_layout.onload.0">
         <source>Body onload</source>
