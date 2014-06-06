@@ -741,3 +741,223 @@ file_filter = translations/contao.v3_3-repository-tl_settings/<lang>.xlf
 source_lang = en
 type = XLIFF
 
+[contao.v4_0-calendar-default]
+file_filter = translations/contao.v4_0-calendar-default/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-calendar-modules]
+file_filter = translations/contao.v4_0-calendar-modules/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-calendar-tl_calendar]
+file_filter = translations/contao.v4_0-calendar-tl_calendar/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-calendar-tl_calendar_events]
+file_filter = translations/contao.v4_0-calendar-tl_calendar_events/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-calendar-tl_calendar_feed]
+file_filter = translations/contao.v4_0-calendar-tl_calendar_feed/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-calendar-tl_module]
+file_filter = translations/contao.v4_0-calendar-tl_module/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-calendar-tl_user]
+file_filter = translations/contao.v4_0-calendar-tl_user/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-calendar-tl_user_group]
+file_filter = translations/contao.v4_0-calendar-tl_user_group/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-comments-default]
+file_filter = translations/contao.v4_0-comments-default/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-comments-modules]
+file_filter = translations/contao.v4_0-comments-modules/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-comments-tl_comments]
+file_filter = translations/contao.v4_0-comments-tl_comments/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-comments-tl_content]
+file_filter = translations/contao.v4_0-comments-tl_content/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-comments-tl_module]
+file_filter = translations/contao.v4_0-comments-tl_module/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-countries]
+file_filter = translations/contao.v4_0-core-countries/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-default]
+file_filter = translations/contao.v4_0-core-default/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-exception]
+file_filter = translations/contao.v4_0-core-exception/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-explain]
+file_filter = translations/contao.v4_0-core-explain/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-languages]
+file_filter = translations/contao.v4_0-core-languages/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-modules]
+file_filter = translations/contao.v4_0-core-modules/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_article]
+file_filter = translations/contao.v4_0-core-tl_article/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_content]
+file_filter = translations/contao.v4_0-core-tl_content/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_files]
+file_filter = translations/contao.v4_0-core-tl_files/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_form]
+file_filter = translations/contao.v4_0-core-tl_form/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_form_field]
+file_filter = translations/contao.v4_0-core-tl_form_field/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_install]
+file_filter = translations/contao.v4_0-core-tl_install/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_layout]
+file_filter = translations/contao.v4_0-core-tl_layout/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_log]
+file_filter = translations/contao.v4_0-core-tl_log/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_maintenance]
+file_filter = translations/contao.v4_0-core-tl_maintenance/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_member]
+file_filter = translations/contao.v4_0-core-tl_member/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_member_group]
+file_filter = translations/contao.v4_0-core-tl_member_group/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_module]
+file_filter = translations/contao.v4_0-core-tl_module/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_page]
+file_filter = translations/contao.v4_0-core-tl_page/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_settings]
+file_filter = translations/contao.v4_0-core-tl_settings/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_style]
+file_filter = translations/contao.v4_0-core-tl_style/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_style_sheet]
+file_filter = translations/contao.v4_0-core-tl_style_sheet/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_templates]
+file_filter = translations/contao.v4_0-core-tl_templates/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_theme]
+file_filter = translations/contao.v4_0-core-tl_theme/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_undo]
+file_filter = translations/contao.v4_0-core-tl_undo/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_user]
+file_filter = translations/contao.v4_0-core-tl_user/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_user_group]
+file_filter = translations/contao.v4_0-core-tl_user_group/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-devtools-modules]
+file_filter = translations/contao.v4_0-devtools-modules/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-devtools-tl_autoload]
+file_filter = translations/contao.v4_0-devtools-tl_autoload/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-devtools-tl_extension]
+file_filter = translations/contao.v4_0-devtools-tl_extension/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-devtools-tl_labels]
+file_filter = translations/contao.v4_0-devtools-tl_labels/<lang>.xlf
+source_lang = en
+type = XLIFF
+
