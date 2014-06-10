@@ -98,6 +98,18 @@
         <source>Now please log into the &lt;a href=&quot;contao/&quot;&gt;Contao back end&lt;/a&gt; and check the system settings. Then visit your website to make sure that Contao is working correctly.</source>
         <target>すぐに&lt;a href=&quot;contao/&quot;&gt;Contaoのバックエンド&lt;/a&gt;にログインして、システムの設定を確認してください。それからウェブサイトにアクセスしてContaoが正しく動作していることを確認してください。</target>
       </trans-unit>
+      <trans-unit id="tl_install.filePermissions.0">
+        <source>File permission error</source>
+        <target>ファイル権限のエラー</target>
+      </trans-unit>
+      <trans-unit id="tl_install.filePermissions.1">
+        <source>Your server does not support file access via PHP; most likely PHP runs as Apache module under a different user. Please contact your server administrator and ask him to fix the problem. &lt;strong&gt;Do not attempt to fix this yourself&lt;/strong&gt; by making files and folders writable for everyone!</source>
+        <target>サーバーがPHPによるファイルアクセスをサポートしていません、おそらく、PHPはApacheのモジュールで異なるユーザーで動作しているのでしょう。サーバーの管理者に連絡を取って、この問題を修正してください。ファイルやフォルダーを誰にでも読み書き可能にする方法で、&lt;strong&gt;自分自身で問題を修正しようとしないでください&lt;/strong&gt;!</target>
+      </trans-unit>
+      <trans-unit id="tl_install.lcfNotWritable">
+        <source>The local configuration file could not be written!</source>
+        <target>ローカルの構成ファイルに書き込みができません!</target>
+      </trans-unit>
       <trans-unit id="tl_install.accept">
         <source>Accept license</source>
         <target>使用許諾の受け入れ</target>
