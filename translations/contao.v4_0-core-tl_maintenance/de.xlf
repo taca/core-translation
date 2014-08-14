@@ -203,7 +203,7 @@
       </trans-unit>
       <trans-unit id="tl_maintenance_jobs.symlinks.1">
         <source>Recreates the symlinks in the &lt;code&gt;web/&lt;/code&gt; folder (document root).</source>
-        <target>Legt die Symlinks im Ordner &lt;code&gt;web/&lt;/code&gt; (Document Root) neu an.</target>
+        <target>Legt die Symlinks im Ordner &lt;code&gt;web/&lt;/code&gt; (Document-Root) neu an.</target>
       </trans-unit>
     </body>
   </file>
