@@ -361,13 +361,21 @@
         <source>Here you can select one or more MooTools templates.</source>
         <target>Hier können Sie eines oder mehrere MooTools-Templates auswählen.</target>
       </trans-unit>
+      <trans-unit id="tl_layout.scripts.0">
+        <source>JavaScript templates</source>
+        <target>JavaScript-Templates</target>
+      </trans-unit>
+      <trans-unit id="tl_layout.scripts.1">
+        <source>Here you can select one or more JavaScript templates.</source>
+        <target>Hier können Sie eines oder mehrere JavaScript-Templates auswählen.</target>
+      </trans-unit>
       <trans-unit id="tl_layout.analytics.0">
         <source>Analytics templates</source>
         <target>Analytics-Templates</target>
       </trans-unit>
       <trans-unit id="tl_layout.analytics.1">
-        <source>Here you can activate the analytics templates (e.g. for Google Analytics or Piwik). Note that you have to adjust those templates and add your analytics ID before you can use them!</source>
-        <target>Hier können Sie die Analytics-Templates (z.B. für Google-Analytics oder Piwik) aktivieren. Beachten Sie, dass Sie diese Templates anpassen und Ihre Analytics-ID hinzufügen müssen, bevor Sie sie verwenden können!</target>
+        <source>Here you can select one or more analytics templates.</source>
+        <target>Hier können Sie eines oder mehrere Analytics-Templates auswählen.</target>
       </trans-unit>
       <trans-unit id="tl_layout.script.0">
         <source>Custom JavaScript code</source>
@@ -438,8 +446,8 @@
         <target>Experten-Einstellungen</target>
       </trans-unit>
       <trans-unit id="tl_layout.script_legend">
-        <source>Script settings</source>
-        <target>Skript-Einstellungen</target>
+        <source>JavaScript</source>
+        <target>JavaScript</target>
       </trans-unit>
       <trans-unit id="tl_layout.static_legend">
         <source>Static layout</source>
@@ -481,14 +489,6 @@
         <source>HTML</source>
         <target>HTML</target>
       </trans-unit>
-      <trans-unit id="tl_layout.xhtml_strict">
-        <source>XHTML Strict</source>
-        <target>XHTML Strict</target>
-      </trans-unit>
-      <trans-unit id="tl_layout.xhtml_trans">
-        <source>XHTML Transitional</source>
-        <target>XHTML Transitional</target>
-      </trans-unit>
       <trans-unit id="tl_layout.top">
         <source>Before the wrapper</source>
         <target>Vor dem umschließenden Element</target>
@@ -518,8 +518,8 @@
         <target>Das Modul bearbeiten</target>
       </trans-unit>
       <trans-unit id="tl_layout.analytics_google">
-        <source>Google</source>
-        <target>Google</target>
+        <source>Google Analytics</source>
+        <target>Google Analytics</target>
       </trans-unit>
       <trans-unit id="tl_layout.analytics_piwik">
         <source>Piwik</source>

@@ -361,13 +361,21 @@
         <source>Here you can select one or more MooTools templates.</source>
         <target>MooToolsのテンプレートを1つ以上選択できます。</target>
       </trans-unit>
+      <trans-unit id="tl_layout.scripts.0">
+        <source>JavaScript templates</source>
+        <target>JavaScriptのテンプレート</target>
+      </trans-unit>
+      <trans-unit id="tl_layout.scripts.1">
+        <source>Here you can select one or more JavaScript templates.</source>
+        <target>JavaScriptのテンプレートを1つ以上選択できます。</target>
+      </trans-unit>
       <trans-unit id="tl_layout.analytics.0">
         <source>Analytics templates</source>
         <target>アナリティックスのテンプレート</target>
       </trans-unit>
       <trans-unit id="tl_layout.analytics.1">
-        <source>Here you can activate the analytics templates (e.g. for Google Analytics or Piwik). Note that you have to adjust those templates and add your analytics ID before you can use them!</source>
-        <target>アナリティックスのテンプレート(例えば、GoogleアナリティックスやPiwiki)をレイアウトに追加できます。これらのテンプレートは使用する前に、少し変えてアナリティックスのIDを追加しなければなりません!</target>
+        <source>Here you can select one or more analytics templates.</source>
+        <target>アナリティックスのテンプレートを1つ以上選択できます。</target>
       </trans-unit>
       <trans-unit id="tl_layout.script.0">
         <source>Custom JavaScript code</source>
@@ -438,8 +446,8 @@
         <target>専門的な設定</target>
       </trans-unit>
       <trans-unit id="tl_layout.script_legend">
-        <source>Script settings</source>
-        <target>スクリプトの設定</target>
+        <source>JavaScript</source>
+        <target>JavaScript</target>
       </trans-unit>
       <trans-unit id="tl_layout.static_legend">
         <source>Static layout</source>
@@ -481,14 +489,6 @@
         <source>HTML</source>
         <target>HTML</target>
       </trans-unit>
-      <trans-unit id="tl_layout.xhtml_strict">
-        <source>XHTML Strict</source>
-        <target>XHTML Strict</target>
-      </trans-unit>
-      <trans-unit id="tl_layout.xhtml_trans">
-        <source>XHTML Transitional</source>
-        <target>XHTML Transitional</target>
-      </trans-unit>
       <trans-unit id="tl_layout.top">
         <source>Before the wrapper</source>
         <target>wrapperの前</target>
@@ -518,8 +518,8 @@
         <target>モジュールを編集</target>
       </trans-unit>
       <trans-unit id="tl_layout.analytics_google">
-        <source>Google</source>
-        <target>Google</target>
+        <source>Google Analytics</source>
+        <target>Googleアナリティックス</target>
       </trans-unit>
       <trans-unit id="tl_layout.analytics_piwik">
         <source>Piwik</source>
