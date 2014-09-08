@@ -147,9 +147,11 @@
       </trans-unit>
       <trans-unit id="tl_layout.stylesheet.0">
         <source>Internal style sheets</source>
+        <target>内部のスタイルシート</target>
       </trans-unit>
       <trans-unit id="tl_layout.stylesheet.1">
         <source>Here you can add internal style sheets to the layout.</source>
+        <target>ページレイアウトに内部のスタイルシートを追加できます</target>
       </trans-unit>
       <trans-unit id="tl_layout.framework.0">
         <source>CSS framework</source>
@@ -209,9 +211,11 @@
       </trans-unit>
       <trans-unit id="tl_layout.external.0">
         <source>External style sheets</source>
+        <target>外部のスタイルシート</target>
       </trans-unit>
       <trans-unit id="tl_layout.external.1">
         <source>Here you can add external CSS, SCSS or LESS files from the file system.</source>
+        <target>ファイルシステムから外部のCSS、SCSS、LESSファイルを追加できます。</target>
       </trans-unit>
       <trans-unit id="tl_layout.orderExt.0">
         <source>Sort order</source>
@@ -223,15 +227,19 @@
       </trans-unit>
       <trans-unit id="tl_layout.loadingOrder.0">
         <source>Loading order</source>
+        <target>読み込みの順序</target>
       </trans-unit>
       <trans-unit id="tl_layout.loadingOrder.1">
         <source>Here you can select the loading order of the style sheets.</source>
+        <target>スタイルシートの読み込む順序を選択できます。</target>
       </trans-unit>
       <trans-unit id="tl_layout.external_first">
         <source>Load external style sheets first</source>
+        <target>先に外部のスタイルシートを読み込み</target>
       </trans-unit>
       <trans-unit id="tl_layout.internal_first">
         <source>Load internal style sheets first</source>
+        <target>先に内部のスタイルシートを読み込み</target>
       </trans-unit>
       <trans-unit id="tl_layout.webfonts.0">
         <source>Google web fonts</source>
