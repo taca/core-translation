@@ -369,6 +369,14 @@
         <source>Please choose the sort order.</source>
         <target>並べ替えの順序を選択してください。</target>
       </trans-unit>
+      <trans-unit id="tl_content.metaIgnore.0">
+        <source>Ignore files without meta data</source>
+        <target>メタデータのないファイルを無視</target>
+      </trans-unit>
+      <trans-unit id="tl_content.metaIgnore.1">
+        <source>Do not show files without meta data matching the page language.</source>
+        <target>ページの言語に一致するメタデータのないファイルを表示しません。</target>
+      </trans-unit>
       <trans-unit id="tl_content.galleryTpl.0">
         <source>Gallery template</source>
         <target>ギャラリーのテンプレート</target>
