@@ -1667,6 +1667,14 @@ Diese E-Mail wurde von Contao generiert. Sie können nicht darauf antworten.
         <source>Reset selection</source>
         <target>Auswahl aufheben</target>
       </trans-unit>
+      <trans-unit id="MSC.filePicker">
+        <source>Switch to file picker</source>
+        <target>Zum Dateiwähler</target>
+      </trans-unit>
+      <trans-unit id="MSC.pagePicker">
+        <source>Switch to page picker</source>
+        <target>Zum Seitenwähler</target>
+      </trans-unit>
       <trans-unit id="MSC.fileManager">
         <source>Open the file manager</source>
         <target>Die Dateiverwaltung öffnen</target>
