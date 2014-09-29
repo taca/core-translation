@@ -2147,6 +2147,10 @@ Diese E-Mail wurde von Contao generiert. Sie können nicht darauf antworten.
         <source>Location</source>
         <target>Ort</target>
       </trans-unit>
+      <trans-unit id="MSC.download">
+        <source>Download %s</source>
+        <target>Die Datei %s herunterladen</target>
+      </trans-unit>
       <trans-unit id="UNITS.0">
         <source>Byte</source>
         <target>Byte</target>
