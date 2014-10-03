@@ -1296,11 +1296,6 @@ file_filter = translations/contao.v3_4-news-tl_news_archive/<lang>.xlf
 source_lang = en
 type = XLIFF
 
-[contao.v3_4-news-tl_news_comments]
-file_filter = translations/contao.v3_4-news-tl_news_comments/<lang>.xlf
-source_lang = en
-type = XLIFF
-
 [contao.v3_4-news-tl_news_feed]
 file_filter = translations/contao.v3_4-news-tl_news_feed/<lang>.xlf
 source_lang = en
@@ -1443,11 +1438,6 @@ type = XLIFF
 
 [contao.v4_0-news-tl_news_archive]
 file_filter = translations/contao.v4_0-news-tl_news_archive/<lang>.xlf
-source_lang = en
-type = XLIFF
-
-[contao.v4_0-news-tl_news_comments]
-file_filter = translations/contao.v4_0-news-tl_news_comments/<lang>.xlf
 source_lang = en
 type = XLIFF
 
