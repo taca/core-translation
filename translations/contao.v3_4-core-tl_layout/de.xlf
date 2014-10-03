@@ -377,6 +377,14 @@
         <source>Here you can select one or more MooTools templates.</source>
         <target>Hier können Sie eines oder mehrere MooTools-Templates auswählen.</target>
       </trans-unit>
+      <trans-unit id="tl_layout.addPicturefill.0">
+        <source>Include picturefill.js</source>
+        <target>Picturefill.js einbinden</target>
+      </trans-unit>
+      <trans-unit id="tl_layout.addPicturefill.1">
+        <source>Include the picturefill.js script (responsive images).</source>
+        <target>Das picturefill.js-Skript einbinden (responsive Bilder).</target>
+      </trans-unit>
       <trans-unit id="tl_layout.analytics.0">
         <source>Analytics templates</source>
         <target>Analytics-Templates</target>
@@ -454,8 +462,8 @@
         <target>Experten-Einstellungen</target>
       </trans-unit>
       <trans-unit id="tl_layout.script_legend">
-        <source>Script settings</source>
-        <target>Skript-Einstellungen</target>
+        <source>JavaScript</source>
+        <target>JavaScript</target>
       </trans-unit>
       <trans-unit id="tl_layout.static_legend">
         <source>Static layout</source>

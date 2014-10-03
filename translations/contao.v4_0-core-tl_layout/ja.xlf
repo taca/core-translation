@@ -377,6 +377,14 @@
         <source>Here you can select one or more MooTools templates.</source>
         <target>MooToolsのテンプレートを1つ以上選択できます。</target>
       </trans-unit>
+      <trans-unit id="tl_layout.addPicturefill.0">
+        <source>Include picturefill.js</source>
+        <target>picturefill.jsを含める</target>
+      </trans-unit>
+      <trans-unit id="tl_layout.addPicturefill.1">
+        <source>Include the picturefill.js script (responsive images).</source>
+        <target>picturefill.jsスクリプト(レスポンシブ画像)を含めます。</target>
+      </trans-unit>
       <trans-unit id="tl_layout.scripts.0">
         <source>JavaScript templates</source>
         <target>JavaScriptのテンプレート</target>

@@ -786,6 +786,14 @@
         <source>Edit article ID %s</source>
         <target>ID %sのアーティクルを編集</target>
       </trans-unit>
+      <trans-unit id="tl_content.list.1">
+        <source>Import list items from a CSV file</source>
+        <target>CSVファイルから箇条書きの項目をインポート</target>
+      </trans-unit>
+      <trans-unit id="tl_content.table.1">
+        <source>Import table items from a CSV file</source>
+        <target>CSVファイルから表の項目をインポート</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -17,6 +17,38 @@
         <source>Make the folder and its sub-folders accessible via HTTP.</source>
         <target>フォルダーとその下位のフォルダーをHTTPでアクセスできるようにします。</target>
       </trans-unit>
+      <trans-unit id="tl_files.importantPartX.0">
+        <source>Important part x coordinate</source>
+        <target>重要な部分のX座標</target>
+      </trans-unit>
+      <trans-unit id="tl_files.importantPartX.1">
+        <source>Here you can enter the x coordinate of the important part.</source>
+        <target>重要な部分のX座標を入力できます。</target>
+      </trans-unit>
+      <trans-unit id="tl_files.importantPartY.0">
+        <source>Important part y coordinate</source>
+        <target>大切なY座標</target>
+      </trans-unit>
+      <trans-unit id="tl_files.importantPartY.1">
+        <source>Here you can enter the y coordinate of the important part.</source>
+        <target>重要な部分のY座標を入力できます。</target>
+      </trans-unit>
+      <trans-unit id="tl_files.importantPartWidth.0">
+        <source>Important part width</source>
+        <target>重要な部分の幅</target>
+      </trans-unit>
+      <trans-unit id="tl_files.importantPartWidth.1">
+        <source>Here you can enter the width of the important part.</source>
+        <target>重要な部分の幅を入力できます。</target>
+      </trans-unit>
+      <trans-unit id="tl_files.importantPartHeight.0">
+        <source>Important part height</source>
+        <target>重要な部分の高さ</target>
+      </trans-unit>
+      <trans-unit id="tl_files.importantPartHeight.1">
+        <source>Here you can enter the height of the important part.</source>
+        <target>重要な部分の高さを入力できます。</target>
+      </trans-unit>
       <trans-unit id="tl_files.meta.0">
         <source>Meta information</source>
         <target>メタ情報</target>
@@ -208,6 +240,10 @@
       <trans-unit id="tl_files.sync.1">
         <source>Synchronize the file system and the database</source>
         <target>ファイルシステムとデータベースを同期</target>
+      </trans-unit>
+      <trans-unit id="tl_files.edit_preview_help">
+        <source>Mark the important part of the image with your mouse cursor.</source>
+        <target>画像の重要な部分をマウスカーソルで指し示してください。</target>
       </trans-unit>
     </body>
   </file>
