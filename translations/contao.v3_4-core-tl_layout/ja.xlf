@@ -378,12 +378,12 @@
         <target>MooToolsのテンプレートを1つ以上選択できます。</target>
       </trans-unit>
       <trans-unit id="tl_layout.picturefill.0">
-        <source>Image polyfill</source>
-        <target>画像のポリフィル</target>
+        <source>Load the image polyfill</source>
+        <target>画像のポリフィルを読み込み</target>
       </trans-unit>
       <trans-unit id="tl_layout.picturefill.1">
-        <source>Here you can select a responsive images polyfill.</source>
-        <target>レスポンシブな画像のポリフィルを選択できます。</target>
+        <source>Include the image polyfill (&lt;em&gt;respimage.js&lt;/em&gt;) in the layout.</source>
+        <target>画像のポリフィル(&lt;em&gt;respimage.js&lt;/em&gt;)をレイアウトに含めます。</target>
       </trans-unit>
       <trans-unit id="tl_layout.analytics.0">
         <source>Analytics templates</source>

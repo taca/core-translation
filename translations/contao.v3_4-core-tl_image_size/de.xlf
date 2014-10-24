@@ -130,8 +130,8 @@
         <target>Die Bildgröße ID %s löschen</target>
       </trans-unit>
       <trans-unit id="tl_image_size.picturefill">
-        <source>The &lt;em&gt;%s&lt;/em&gt; or &lt;em&gt;%s&lt;/em&gt; polyfill needs to be enabled in the page layout.</source>
-        <target>Das &lt;em&gt;%s&lt;/em&gt;- oder &lt;em&gt;%s&lt;/em&gt;-Polyfill muss im Seitenlayout aktiviert werden.</target>
+        <source>The &lt;em&gt;%s&lt;/em&gt; option needs to be enabled in the page layout.</source>
+        <target>Die Option &lt;em&gt;%s&lt;/em&gt; muss im Seitenlayout aktiviert sein.</target>
       </trans-unit>
     </body>
   </file>

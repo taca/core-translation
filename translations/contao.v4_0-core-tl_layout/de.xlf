@@ -378,12 +378,12 @@
         <target>Hier können Sie eines oder mehrere MooTools-Templates auswählen.</target>
       </trans-unit>
       <trans-unit id="tl_layout.picturefill.0">
-        <source>Image polyfill</source>
-        <target>Image-Polyfill</target>
+        <source>Load the image polyfill</source>
+        <target>Das Image-Polyfill laden</target>
       </trans-unit>
       <trans-unit id="tl_layout.picturefill.1">
-        <source>Here you can select a responsive images polyfill.</source>
-        <target>Hier können Sie ein Image-Polyfill für responsive Bilder auswählen.</target>
+        <source>Include the image polyfill (&lt;em&gt;respimage.js&lt;/em&gt;) in the layout.</source>
+        <target>Dem Layout das Image-Polyfill (&lt;em&gt;respimage.js&lt;/em&gt;) hinzufügen.</target>
       </trans-unit>
       <trans-unit id="tl_layout.scripts.0">
         <source>JavaScript templates</source>
