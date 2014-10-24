@@ -379,9 +379,11 @@
       </trans-unit>
       <trans-unit id="tl_layout.picturefill.0">
         <source>Image polyfill</source>
+        <target>画像のポリフィル</target>
       </trans-unit>
       <trans-unit id="tl_layout.picturefill.1">
         <source>Here you can select a responsive images polyfill.</source>
+        <target>レスポンシブな画像のポリフィルを選択できます。</target>
       </trans-unit>
       <trans-unit id="tl_layout.analytics.0">
         <source>Analytics templates</source>
@@ -449,6 +451,7 @@
       </trans-unit>
       <trans-unit id="tl_layout.picturefill_legend">
         <source>Responsive images</source>
+        <target>レスポンシブな画像</target>
       </trans-unit>
       <trans-unit id="tl_layout.feed_legend">
         <source>RSS/Atom feeds</source>

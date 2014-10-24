@@ -155,11 +155,11 @@
       </trans-unit>
       <trans-unit id="MOD.tl_image_size">
         <source>Image sizes</source>
-        <target>画像の大きさ</target>
+        <target>画像サイズ</target>
       </trans-unit>
       <trans-unit id="MOD.tl_image_size_item">
         <source>Image size media queries</source>
-        <target>画像の大きさのメディアクエリ</target>
+        <target>画像サイズのメディアクエリ</target>
       </trans-unit>
       <trans-unit id="MOD.css">
         <source>Style sheets</source>

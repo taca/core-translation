@@ -3,49 +3,59 @@
     <body>
       <trans-unit id="tl_image_size.name.0">
         <source>Name</source>
-        <target>氏名</target>
+        <target>名前</target>
       </trans-unit>
       <trans-unit id="tl_image_size.name.1">
         <source>Please enter the image size name.</source>
+        <target>画像サイズの名前を入力してください。</target>
       </trans-unit>
       <trans-unit id="tl_image_size.width.0">
         <source>Width</source>
-        <target>幅(width)</target>
+        <target>幅</target>
       </trans-unit>
       <trans-unit id="tl_image_size.width.1">
         <source>Here you can enter the width in pixels.</source>
+        <target>ピクセル単位の幅を入力できます。</target>
       </trans-unit>
       <trans-unit id="tl_image_size.height.0">
         <source>Height</source>
-        <target>高さ(height)</target>
+        <target>高さ</target>
       </trans-unit>
       <trans-unit id="tl_image_size.height.1">
         <source>Here you can enter the height in pixels.</source>
+        <target>ピクセル単位の高さを入力できます。</target>
       </trans-unit>
       <trans-unit id="tl_image_size.resizeMode.0">
         <source>Resize mode</source>
+        <target>サイズ変更の方法</target>
       </trans-unit>
       <trans-unit id="tl_image_size.resizeMode.1">
         <source>Only applicable if width and height are specified.</source>
+        <target>幅と高さを指定している場合だけ適用できます。</target>
       </trans-unit>
       <trans-unit id="tl_image_size.zoom.0">
         <source>Zoom</source>
+        <target>拡大表示</target>
       </trans-unit>
       <trans-unit id="tl_image_size.zoom.1">
         <source>0 = the whole image is visible, 100 = only the important part of the image is visible.</source>
+        <target>0で画像全体を見える状態に、100で画像の重要な部分だけ見える状態にします。</target>
       </trans-unit>
       <trans-unit id="tl_image_size.sizes.0">
         <source>Sizes attribute</source>
-        <target>sizes属性</target>
+        <target>大きさの属性</target>
       </trans-unit>
       <trans-unit id="tl_image_size.sizes.1">
         <source>Here you can define the displayed image width(s), e.g. &lt;em&gt;(max-width: 600px) 100vw, 50vw&lt;/em&gt;.</source>
+        <target>表示する画像の(複数も可能な)幅を指定できます。例: &lt;em&gt;(max-width: 600px) 100vw, 50vw&lt;/em&gt;</target>
       </trans-unit>
       <trans-unit id="tl_image_size.densities.0">
         <source>Pixel densities/scale factors</source>
+        <target>画素密度/倍率</target>
       </trans-unit>
       <trans-unit id="tl_image_size.densities.1">
         <source>Here you can define the pixel densities, e.g. &lt;em&gt;1x, 1.5x, 2x&lt;/em&gt;.</source>
+        <target>画素密度を指定できます。例: &lt;em&gt;1x, 1.5x, 2x&lt;/em&gt;</target>
       </trans-unit>
       <trans-unit id="tl_image_size.tstamp.0">
         <source>Revision date</source>
@@ -57,6 +67,7 @@
       </trans-unit>
       <trans-unit id="tl_image_size.title_legend">
         <source>Image size settings</source>
+        <target>画像サイズの設定</target>
       </trans-unit>
       <trans-unit id="tl_image_size.expert_legend">
         <source>Expert settings</source>
@@ -64,48 +75,63 @@
       </trans-unit>
       <trans-unit id="tl_image_size.new.0">
         <source>New image size</source>
+        <target>新しい画像サイズ</target>
       </trans-unit>
       <trans-unit id="tl_image_size.new.1">
         <source>Create a new image size</source>
+        <target>画像サイズを作成</target>
       </trans-unit>
       <trans-unit id="tl_image_size.show.0">
         <source>Image size details</source>
+        <target>画像サイズの詳細</target>
       </trans-unit>
       <trans-unit id="tl_image_size.show.1">
         <source>Show the details of image size ID %s</source>
+        <target>ID %sの画像サイズの詳細を表示</target>
       </trans-unit>
       <trans-unit id="tl_image_size.edit.0">
         <source>Edit image size</source>
+        <target>画像サイズを編集</target>
       </trans-unit>
       <trans-unit id="tl_image_size.edit.1">
         <source>Edit image size ID %s</source>
+        <target>ID %sの画像サイズを編集</target>
       </trans-unit>
       <trans-unit id="tl_image_size.editheader.0">
         <source>Edit image size settings</source>
+        <target>画像サイズの設定を変更</target>
       </trans-unit>
       <trans-unit id="tl_image_size.editheader.1">
         <source>Edit the settings of image size ID %s</source>
+        <target>ID %sの画像サイズの設定を変更</target>
       </trans-unit>
       <trans-unit id="tl_image_size.cut.0">
         <source>Move image size</source>
+        <target>画像サイズを移動</target>
       </trans-unit>
       <trans-unit id="tl_image_size.cut.1">
         <source>Move image size ID %s</source>
+        <target>ID %sの画像サイズを移動</target>
       </trans-unit>
       <trans-unit id="tl_image_size.copy.0">
         <source>Duplicate image size</source>
+        <target>画像サイズを複製</target>
       </trans-unit>
       <trans-unit id="tl_image_size.copy.1">
         <source>Duplicate image size ID %s</source>
+        <target>ID %sの画像サイズを複製</target>
       </trans-unit>
       <trans-unit id="tl_image_size.delete.0">
         <source>Delete image size</source>
+        <target>画像サイズを削除</target>
       </trans-unit>
       <trans-unit id="tl_image_size.delete.1">
         <source>Delete image size ID %s</source>
+        <target>ID %sの画像サイズを削除</target>
       </trans-unit>
       <trans-unit id="tl_image_size.picturefill">
         <source>The &lt;em&gt;%s&lt;/em&gt; or &lt;em&gt;%s&lt;/em&gt; polyfill needs to be enabled in the page layout.</source>
+        <target>&lt;em&gt;%s&lt;/em&gt;や&lt;em&gt;%s&lt;/em&gt;のポリフィルをページレイアウトで有効にする必要があります。</target>
       </trans-unit>
     </body>
   </file>
