@@ -1471,3 +1471,23 @@ file_filter = translations/contao.v4_0-repository-tl_settings/<lang>.xlf
 source_lang = en
 type = XLIFF
 
+[contao.v3_4-core-tl_image_size]
+file_filter = translations/contao.v3_4-core-tl_image_size/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v3_4-core-tl_image_size_item]
+file_filter = translations/contao.v3_4-core-tl_image_size_item/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_image_size]
+file_filter = translations/contao.v4_0-core-tl_image_size/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[contao.v4_0-core-tl_image_size_item]
+file_filter = translations/contao.v4_0-core-tl_image_size_item/<lang>.xlf
+source_lang = en
+type = XLIFF
+
