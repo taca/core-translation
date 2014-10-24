@@ -377,13 +377,13 @@
         <source>Here you can select one or more MooTools templates.</source>
         <target>Hier können Sie eines oder mehrere MooTools-Templates auswählen.</target>
       </trans-unit>
-      <trans-unit id="tl_layout.addPicturefill.0">
-        <source>Include picturefill.js</source>
-        <target>Picturefill.js einbinden</target>
+      <trans-unit id="tl_layout.picturefill.0">
+        <source>Image polyfill</source>
+        <target>Image-Polyfill</target>
       </trans-unit>
-      <trans-unit id="tl_layout.addPicturefill.1">
-        <source>Include the picturefill.js script (responsive images).</source>
-        <target>Das picturefill.js-Skript einbinden (responsive Bilder).</target>
+      <trans-unit id="tl_layout.picturefill.1">
+        <source>Here you can select a responsive images polyfill.</source>
+        <target>Hier können Sie ein Image-Polyfill für responsive Bilder auswählen.</target>
       </trans-unit>
       <trans-unit id="tl_layout.scripts.0">
         <source>JavaScript templates</source>
@@ -456,6 +456,10 @@
       <trans-unit id="tl_layout.style_legend">
         <source>Style sheets</source>
         <target>Stylesheets</target>
+      </trans-unit>
+      <trans-unit id="tl_layout.picturefill_legend">
+        <source>Responsive images</source>
+        <target>Responsive Bilder</target>
       </trans-unit>
       <trans-unit id="tl_layout.feed_legend">
         <source>RSS/Atom feeds</source>
