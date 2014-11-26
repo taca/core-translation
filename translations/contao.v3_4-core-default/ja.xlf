@@ -1035,9 +1035,11 @@
       </trans-unit>
       <trans-unit id="MSC.crop.0">
         <source>Important part</source>
+        <target>重要な部分</target>
       </trans-unit>
       <trans-unit id="MSC.crop.1">
         <source>Preserves the important part of an image as specified in the file manager.</source>
+        <target>ファイル管理で指定したように画像の重要な部分を保持します。</target>
       </trans-unit>
       <trans-unit id="MSC.left_top.0">
         <source>Left | Top</source>

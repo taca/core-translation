@@ -91,6 +91,7 @@
       </trans-unit>
       <trans-unit id="tl_image_size.crop.0">
         <source>Crop</source>
+        <target>切り取り</target>
       </trans-unit>
       <trans-unit id="tl_image_size.crop.1">
         <source>The image will be resized to the given dimensions. If necessary, it will be cropped.</source>
