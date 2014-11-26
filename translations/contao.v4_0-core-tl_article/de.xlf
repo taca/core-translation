@@ -1,5 +1,5 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="system/modules/core/languages/en/tl_article.php" source-language="en">
+  <file datatype="php" original="contao/languages/en/tl_article.php" source-language="en">
     <body>
       <trans-unit id="tl_article.title.0">
         <source>Title</source>
@@ -59,7 +59,7 @@
       </trans-unit>
       <trans-unit id="tl_article.teaser.0">
         <source>Article teaser</source>
-        <target>Teasertext</target>
+        <target>Artikelteaser</target>
       </trans-unit>
       <trans-unit id="tl_article.teaser.1">
         <source>The article teaser can also be displayed with the content element &quot;article teaser&quot;.</source>
@@ -167,7 +167,7 @@
       </trans-unit>
       <trans-unit id="tl_article.teaser_legend">
         <source>Article teaser</source>
-        <target>Teasertext</target>
+        <target>Artikelteaser</target>
       </trans-unit>
       <trans-unit id="tl_article.template_legend">
         <source>Template settings</source>
@@ -251,7 +251,7 @@
       </trans-unit>
       <trans-unit id="tl_article.editheader.0">
         <source>Edit article settings</source>
-        <target>Artikeleinstellungen bearbeiten</target>
+        <target>Artikel bearbeiten</target>
       </trans-unit>
       <trans-unit id="tl_article.editheader.1">
         <source>Edit the settings of article ID %s</source>

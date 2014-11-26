@@ -175,7 +175,7 @@
       </trans-unit>
       <trans-unit id="MOD.image_sizes">
         <source>Image sizes</source>
-        <target>画像の大きさ</target>
+        <target>画像サイズ</target>
       </trans-unit>
       <trans-unit id="MOD.theme_import">
         <source>Theme import</source>

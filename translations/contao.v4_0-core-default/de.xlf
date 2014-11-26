@@ -1,5 +1,5 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="system/modules/core/languages/en/default.php" source-language="en">
+  <file datatype="php" original="contao/languages/en/default.php" source-language="en">
     <body>
       <trans-unit id="ERR.general">
         <source>An error occurred!</source>
@@ -771,7 +771,7 @@
       </trans-unit>
       <trans-unit id="MSC.monthShortLength">
         <source>3</source>
-        <target>3</target>
+        <target>2</target>
       </trans-unit>
       <trans-unit id="MSC.weekOffset">
         <source>0</source>
@@ -1111,7 +1111,7 @@
       </trans-unit>
       <trans-unit id="MSC.pid.0">
         <source>Parent ID</source>
-        <target>Parent-ID</target>
+        <target>Elternelement</target>
       </trans-unit>
       <trans-unit id="MSC.pid.1">
         <source>Note that changing the parent ID can break data integrity!</source>
@@ -1353,7 +1353,7 @@ Diese E-Mail wurde von Contao generiert. Sie können nicht darauf antworten.
       </trans-unit>
       <trans-unit id="MSC.cancelBT">
         <source>Cancel</source>
-        <target>Abbrechen</target>
+        <target>Abbruch</target>
       </trans-unit>
       <trans-unit id="MSC.deleteConfirm">
         <source>Do you really want to delete entry ID %s?</source>
@@ -2229,7 +2229,7 @@ Diese E-Mail wurde von Contao generiert. Sie können nicht darauf antworten.
       </trans-unit>
       <trans-unit id="DP.cancel">
         <source>Cancel</source>
-        <target>Abbrechen</target>
+        <target>Abbruch</target>
       </trans-unit>
       <trans-unit id="DP.week">
         <source>Wk</source>

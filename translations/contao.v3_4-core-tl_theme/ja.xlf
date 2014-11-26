@@ -179,7 +179,7 @@
       </trans-unit>
       <trans-unit id="tl_theme.imageSizes.0">
         <source>Image sizes</source>
-        <target>画像の大きさ</target>
+        <target>画像サイズ</target>
       </trans-unit>
       <trans-unit id="tl_theme.imageSizes.1">
         <source>Edit the image sizes of theme ID %s</source>

@@ -1,5 +1,5 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="system/modules/news/languages/en/tl_news_archive.php" source-language="en">
+  <file datatype="php" original="contao/languages/en/tl_news_archive.php" source-language="en">
     <body>
       <trans-unit id="tl_news_archive.title.0">
         <source>Title</source>
@@ -35,7 +35,7 @@
       </trans-unit>
       <trans-unit id="tl_news_archive.sortOrder.0">
         <source>Sort order</source>
-        <target>Sortierung</target>
+        <target>Sortierreihenfolge</target>
       </trans-unit>
       <trans-unit id="tl_news_archive.sortOrder.1">
         <source>By default, comments are sorted ascending, starting with the oldest one.</source>
@@ -167,7 +167,7 @@
       </trans-unit>
       <trans-unit id="tl_news_archive.editheader.0">
         <source>Edit archive settings</source>
-        <target>Archiv-Einstellungen bearbeiten</target>
+        <target>Nachrichtenarchiv bearbeiten</target>
       </trans-unit>
       <trans-unit id="tl_news_archive.editheader.1">
         <source>Edit the settings of archive ID %s</source>

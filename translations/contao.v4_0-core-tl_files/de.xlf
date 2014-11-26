@@ -1,5 +1,5 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="system/modules/core/languages/en/tl_files.php" source-language="en">
+  <file datatype="php" original="contao/languages/en/tl_files.php" source-language="en">
     <body>
       <trans-unit id="tl_files.name.0">
         <source>Name</source>
@@ -91,7 +91,7 @@
       </trans-unit>
       <trans-unit id="tl_files.editFile">
         <source>Edit file &quot;%s&quot;</source>
-        <target>Datei &quot;%s&quot; bearbeiten</target>
+        <target>Die Datei &quot;%s&quot; bearbeiten</target>
       </trans-unit>
       <trans-unit id="tl_files.browseFiles">
         <source>Browse files</source>
@@ -223,7 +223,7 @@
       </trans-unit>
       <trans-unit id="tl_files.move.1">
         <source>Upload files to the server</source>
-        <target>Dateien auf den Server übertragen</target>
+        <target>Dateien auf den Server hochladen</target>
       </trans-unit>
       <trans-unit id="tl_files.pasteinto.0">
         <source>Paste into</source>

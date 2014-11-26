@@ -1,5 +1,5 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="system/modules/faq/languages/en/tl_faq.php" source-language="en">
+  <file datatype="php" original="contao/languages/en/tl_faq.php" source-language="en">
     <body>
       <trans-unit id="tl_faq.question.0">
         <source>Question</source>
@@ -171,7 +171,7 @@
       </trans-unit>
       <trans-unit id="tl_faq.pastenew.0">
         <source>Add new at the top</source>
-        <target>Neue Frage oben erstellen</target>
+        <target>Neue Formatdefinition oben erstellen</target>
       </trans-unit>
       <trans-unit id="tl_faq.pastenew.1">
         <source>Add new after question ID %s</source>
