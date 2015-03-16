@@ -201,14 +201,6 @@
         <source>Adds basic form elements and buttons formatting.</source>
         <target>Grundlegende Formatierung von Formular-Elementen und Schaltflächen.</target>
       </trans-unit>
-      <trans-unit id="tl_layout.tinymce.css.0">
-        <source>TinyMCE style sheet</source>
-        <target>TinyMCE-Stylesheet</target>
-      </trans-unit>
-      <trans-unit id="tl_layout.tinymce.css.1">
-        <source>Includes the &lt;em&gt;tinymce.css&lt;/em&gt; style sheet from your upload directory.</source>
-        <target>Bindet das &lt;em&gt;tinymce.css&lt;/em&gt;-Stylesheet aus dem Upload-Verzeichnis ein.</target>
-      </trans-unit>
       <trans-unit id="tl_layout.external.0">
         <source>External style sheets</source>
         <target>Externe Stylesheets</target>

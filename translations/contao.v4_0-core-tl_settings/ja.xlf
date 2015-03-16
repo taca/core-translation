@@ -169,14 +169,6 @@
         <source>Anonymize the IP addresses that are sent to Google Analytics.</source>
         <target>Googleアナリティックスに送るIPアドレスを匿名化します。</target>
       </trans-unit>
-      <trans-unit id="tl_settings.rewriteURL.0">
-        <source>Rewrite URLs</source>
-        <target>URLの書き換え</target>
-      </trans-unit>
-      <trans-unit id="tl_settings.rewriteURL.1">
-        <source>Make Contao generate static URLs without the index.php fragment. This feature requires &quot;mod_rewrite&quot;, renaming the &quot;.htaccess.default&quot; file to &quot;.htaccess&quot; and adjusting the RewriteBase as necessary.</source>
-        <target>index.phpを含まない静的なURLをContaoに生成させます。この機能は&quot;mod_rewrite&quot;が必要とし、&quot;.htaccess.default&quot;を&quot;.htaccess&quot;に名前を変更し、必要に応じてRewriteBaseを調整しなければなりません。</target>
-      </trans-unit>
       <trans-unit id="tl_settings.addLanguageToUrl.0">
         <source>Add the language to the URL</source>
         <target>言語をURLに追加</target>
@@ -201,14 +193,6 @@
         <source>Skip the &lt;em&gt;items/&lt;/em&gt; or &lt;em&gt;events/&lt;/em&gt; fragment in the URL and automatically discover the item based on the &lt;em&gt;auto_item&lt;/em&gt; parameter.</source>
         <target>URLの &lt;em&gt;items/&lt;/em&gt; や &lt;em&gt;events/&lt;/em&gt; といった断片を飛ばして、 &lt;em&gt;auto_item&lt;/em&gt; パラメーターを基に自動的に項目を見いだします。</target>
       </trans-unit>
-      <trans-unit id="tl_settings.disableAlias.0">
-        <source>Disable page alias usage</source>
-        <target>ページのエイリアスを無効</target>
-      </trans-unit>
-      <trans-unit id="tl_settings.disableAlias.1">
-        <source>Use the numeric ID of a page or article instead of its alias.</source>
-        <target>ページやアーティクルのエイリアスの代わりに数値のIDを使用します。</target>
-      </trans-unit>
       <trans-unit id="tl_settings.folderUrl.0">
         <source>Enable folder URLs</source>
         <target>フォルダーのURLを有効</target>
@@ -224,14 +208,6 @@
       <trans-unit id="tl_settings.allowedTags.1">
         <source>Here you can enter a list of allowed HTML tags that will not be stripped.</source>
         <target>削除しないで許可するHTMLのタグのリストを指定します。</target>
-      </trans-unit>
-      <trans-unit id="tl_settings.debugMode.0">
-        <source>Enable debug mode</source>
-        <target>デバッグモードを有効</target>
-      </trans-unit>
-      <trans-unit id="tl_settings.debugMode.1">
-        <source>Print certain runtime information like database queries to the screen.</source>
-        <target>データベースの問い合わせのような、特定の実行時の情報を画面に表示します。</target>
       </trans-unit>
       <trans-unit id="tl_settings.maintenanceMode.0">
         <source>Maintenance mode</source>
@@ -592,10 +568,6 @@
       <trans-unit id="tl_settings.smtp_legend">
         <source>SMTP configuration</source>
         <target>SMTPの構成</target>
-      </trans-unit>
-      <trans-unit id="tl_settings.ftp_legend">
-        <source>Safe Mode Hack</source>
-        <target>セーフモード対処</target>
       </trans-unit>
       <trans-unit id="tl_settings.modules_legend">
         <source>Inactive extensions</source>

@@ -127,12 +127,6 @@
       <trans-unit id="tl_settings.privacyAnonymizeGA.1">
         <source>Anonymize the IP addresses that are sent to Google Analytics.</source>
       </trans-unit>
-      <trans-unit id="tl_settings.rewriteURL.0">
-        <source>Rewrite URLs</source>
-      </trans-unit>
-      <trans-unit id="tl_settings.rewriteURL.1">
-        <source>Make Contao generate static URLs without the index.php fragment. This feature requires &quot;mod_rewrite&quot;, renaming the &quot;.htaccess.default&quot; file to &quot;.htaccess&quot; and adjusting the RewriteBase as necessary.</source>
-      </trans-unit>
       <trans-unit id="tl_settings.addLanguageToUrl.0">
         <source>Add the language to the URL</source>
       </trans-unit>
@@ -151,12 +145,6 @@
       <trans-unit id="tl_settings.useAutoItem.1">
         <source>Skip the &lt;em&gt;items/&lt;/em&gt; or &lt;em&gt;events/&lt;/em&gt; fragment in the URL and automatically discover the item based on the &lt;em&gt;auto_item&lt;/em&gt; parameter.</source>
       </trans-unit>
-      <trans-unit id="tl_settings.disableAlias.0">
-        <source>Disable page alias usage</source>
-      </trans-unit>
-      <trans-unit id="tl_settings.disableAlias.1">
-        <source>Use the numeric ID of a page or article instead of its alias.</source>
-      </trans-unit>
       <trans-unit id="tl_settings.folderUrl.0">
         <source>Enable folder URLs</source>
       </trans-unit>
@@ -168,12 +156,6 @@
       </trans-unit>
       <trans-unit id="tl_settings.allowedTags.1">
         <source>Here you can enter a list of allowed HTML tags that will not be stripped.</source>
-      </trans-unit>
-      <trans-unit id="tl_settings.debugMode.0">
-        <source>Enable debug mode</source>
-      </trans-unit>
-      <trans-unit id="tl_settings.debugMode.1">
-        <source>Print certain runtime information like database queries to the screen.</source>
       </trans-unit>
       <trans-unit id="tl_settings.maintenanceMode.0">
         <source>Maintenance mode</source>
@@ -444,9 +426,6 @@
       </trans-unit>
       <trans-unit id="tl_settings.smtp_legend">
         <source>SMTP configuration</source>
-      </trans-unit>
-      <trans-unit id="tl_settings.ftp_legend">
-        <source>Safe Mode Hack</source>
       </trans-unit>
       <trans-unit id="tl_settings.modules_legend">
         <source>Inactive extensions</source>

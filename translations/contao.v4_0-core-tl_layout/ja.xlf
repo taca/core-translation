@@ -201,14 +201,6 @@
         <source>Adds basic form elements and buttons formatting.</source>
         <target>基本的なフォームの要素とボタンの書式を追加します。</target>
       </trans-unit>
-      <trans-unit id="tl_layout.tinymce.css.0">
-        <source>TinyMCE style sheet</source>
-        <target>TinyMCEスタイルシート</target>
-      </trans-unit>
-      <trans-unit id="tl_layout.tinymce.css.1">
-        <source>Includes the &lt;em&gt;tinymce.css&lt;/em&gt; style sheet from your upload directory.</source>
-        <target>アップロードディレクトリから&lt;em&gt;tinymce.css&lt;/em&gt;のスタイルシートを含めます。</target>
-      </trans-unit>
       <trans-unit id="tl_layout.external.0">
         <source>External style sheets</source>
         <target>外部のスタイルシート</target>

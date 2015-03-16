@@ -94,8 +94,8 @@
         <target>Gratulation!</target>
       </trans-unit>
       <trans-unit id="tl_install.completed.1">
-        <source>Now please log into the &lt;a href=&quot;contao/&quot;&gt;Contao back end&lt;/a&gt; and check the system settings. Then visit your website to make sure that Contao is working correctly.</source>
-        <target>Melden Sie sich nun im &lt;a href=&quot;contao/&quot;&gt;Contao-Backend&lt;/a&gt; an und prüfen Sie die Systemeinstellungen. Rufen Sie danach Ihre Webseite auf, um sicher zu gehen, dass Contao korrekt funktioniert.</target>
+        <source>Now please log into the &lt;a href=&quot;contao/login&quot;&gt;Contao back end&lt;/a&gt; and check the system settings. Then visit your website to make sure that Contao is working correctly.</source>
+        <target>Melden Sie sich nun im &lt;a href=&quot;contao/login&quot;&gt;Contao-Backend&lt;/a&gt; an und prüfen Sie die Systemeinstellungen. Rufen Sie danach Ihre Webseite auf, um sicher zu gehen, dass Contao korrekt funktioniert.</target>
       </trans-unit>
       <trans-unit id="tl_install.filePermissions.0">
         <source>File permission error</source>
@@ -106,8 +106,8 @@
         <target>Ihr Server unterstützt den Dateizugriff per PHP nicht; vermutlich läuft PHP als Apache-Modul unter einem anderen Benutzer. Bitte wenden Sie sich an Ihren Server-Administrator, damit dieser das Problem behebt. &lt;strong&gt;Versuchen Sie keinesfalls, das Problem selbst zu beheben&lt;/strong&gt;, indem Sie die Dateien und Ordner für jedermann beschreibbar machen!</target>
       </trans-unit>
       <trans-unit id="tl_install.lcfNotWritable">
-        <source>The local configuration file could not be written!</source>
-        <target>Die lokale Konfigurationsdatei konnte nicht geschrieben werden!</target>
+        <source>PHP is not allowed to write files!</source>
+        <target>PHP kann keine Dateien schreiben!</target>
       </trans-unit>
       <trans-unit id="tl_install.accept">
         <source>Accept license</source>
