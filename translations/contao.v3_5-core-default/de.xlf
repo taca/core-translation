@@ -1883,6 +1883,18 @@ Diese E-Mail wurde von Contao generiert. Sie können nicht darauf antworten.
         <source>No matching account found</source>
         <target>Kein passendes Konto gefunden</target>
       </trans-unit>
+      <trans-unit id="MSC.oldPassword">
+        <source>Old password</source>
+        <target>Altes Passwort</target>
+      </trans-unit>
+      <trans-unit id="MSC.newPassword">
+        <source>New password</source>
+        <target>Neues Passwort</target>
+      </trans-unit>
+      <trans-unit id="MSC.changePassword">
+        <source>Change password</source>
+        <target>Passwort ändern</target>
+      </trans-unit>
       <trans-unit id="MSC.securityQuestion">
         <source>Security question</source>
         <target>Sicherheitsfrage</target>

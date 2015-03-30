@@ -289,6 +289,14 @@
         <source>Generates a user registration form</source>
         <target>Erzeugt ein Formular zur Benutzerregistrierung</target>
       </trans-unit>
+      <trans-unit id="FMD.changePassword.0">
+        <source>Change password</source>
+        <target>Passwort ändern</target>
+      </trans-unit>
+      <trans-unit id="FMD.changePassword.1">
+        <source>Generates a form to change the password</source>
+        <target>Erzeugt ein Formular zur Passwort-Änderung</target>
+      </trans-unit>
       <trans-unit id="FMD.lostPassword.0">
         <source>Lost password</source>
         <target>Passwort vergessen</target>
