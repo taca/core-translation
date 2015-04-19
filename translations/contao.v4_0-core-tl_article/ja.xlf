@@ -205,26 +205,6 @@
         <source>Share on Google+</source>
         <target>Google+で共有</target>
       </trans-unit>
-      <trans-unit id="tl_article.header">
-        <source>Header</source>
-        <target>ヘッダー</target>
-      </trans-unit>
-      <trans-unit id="tl_article.left">
-        <source>Left column</source>
-        <target>左の列</target>
-      </trans-unit>
-      <trans-unit id="tl_article.main">
-        <source>Main column</source>
-        <target>メインの列</target>
-      </trans-unit>
-      <trans-unit id="tl_article.right">
-        <source>Right column</source>
-        <target>右の列</target>
-      </trans-unit>
-      <trans-unit id="tl_article.footer">
-        <source>Footer</source>
-        <target>フッター</target>
-      </trans-unit>
       <trans-unit id="tl_article.new.0">
         <source>New article</source>
         <target>新しいアーティクル</target>

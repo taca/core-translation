@@ -62,8 +62,8 @@
         <target>Datei-Upload</target>
       </trans-unit>
       <trans-unit id="tl_files.fileupload.1">
-        <source>Browse your local computer and select the files you want to upload to the server.</source>
-        <target>Durchsuchen Sie Ihren Computer und wählen Sie die Dateien, die Sie auf den Server übertragen möchten.</target>
+        <source>Select the files you want to upload to the server (maximum %s and %s pixel).</source>
+        <target>Wählen Sie die Dateien, die Sie auf den Server übertragen möchten (maximal %s und %s Pixel).</target>
       </trans-unit>
       <trans-unit id="tl_files.editor.0">
         <source>Source editor</source>

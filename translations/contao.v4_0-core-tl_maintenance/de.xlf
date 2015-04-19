@@ -57,10 +57,6 @@
         <source>The temporary folder (system/tmp) is not writeable</source>
         <target>Das temporäre Verzeichnis (system/tmp) ist nicht beschreibbar</target>
       </trans-unit>
-      <trans-unit id="tl_maintenance.changelog">
-        <source>View the change log</source>
-        <target>Changelog aufrufen</target>
-      </trans-unit>
       <trans-unit id="tl_maintenance.runLiveUpdate">
         <source>Run the update</source>
         <target>Aktualisierung starten</target>
@@ -174,8 +170,8 @@
         <target>Internen Cache leeren</target>
       </trans-unit>
       <trans-unit id="tl_maintenance_jobs.internal.1">
-        <source>Removes the cached versions of the DCA and language files. You can permanently disable the internal cache in the back end settings.</source>
-        <target>Löscht die gespeicherten DCA- und Sprachdateien. Der interne Cache kann in den Backend-Einstellungen dauerhaft deaktiviert werden.</target>
+        <source>Removes the cached versions of the config, DCA and language files.</source>
+        <target>Löscht die gespeicherten Versionen der Config-, DCA- und Sprachdateien.</target>
       </trans-unit>
       <trans-unit id="tl_maintenance_jobs.temp.0">
         <source>Purge the temp folder</source>

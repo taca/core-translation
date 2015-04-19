@@ -30,8 +30,8 @@
         <target>Installtool-Passwort</target>
       </trans-unit>
       <trans-unit id="tl_install.changePass.1">
-        <source>To additionally secure the Contao install tool, you can either rename or completely remove the &lt;strong&gt;contao/install.php&lt;/strong&gt; file.</source>
-        <target>Um das Contao-Installtool zusätzlich abzusichern, können Sie die Datei &lt;strong&gt;contao/install.php&lt;/strong&gt; nach der Installation von Contao entweder umbenennen oder komplett von Ihrem Server entfernen.</target>
+        <source>To additionally secure the Contao install tool, you can remove the &lt;strong&gt;contao_backend_install&lt;/strong&gt; route.</source>
+        <target>Um das Contao-Installtool zusätzlich abzusichern, können Sie die Route &lt;strong&gt; contao_backend_install &lt;/strong&gt; löschen.</target>
       </trans-unit>
       <trans-unit id="tl_install.encryption.0">
         <source>Generate an encryption key</source>
@@ -42,12 +42,12 @@
         <target>Der Schlüssel wird zur verschlüsselten Datenspeicherung verwendet. Beachten Sie, dass einmal verschlüsselte Daten nur mit diesem Schlüssel wiederhergestellt werden können! Notieren Sie ihn sich daher und ändern Sie ihn nicht, wenn es bereits verschlüsselte Daten gibt. Lassen Sie das Feld leer, um einen zufälligen Schlüssel zu generieren.</target>
       </trans-unit>
       <trans-unit id="tl_install.database.0">
-        <source>Check database connection</source>
-        <target>Datenbankverbindung</target>
+        <source>Check the database connection</source>
+        <target>Datenbankverbindung prüfen</target>
       </trans-unit>
       <trans-unit id="tl_install.database.1">
-        <source>Please enter your database connection parameters.</source>
-        <target>Bitte geben Sie nachfolgend Ihre Datenbank-Zugangsdaten ein.</target>
+        <source>The database connection is configured in the &lt;em&gt;app/config/parameters.yml&lt;/em&gt; file.</source>
+        <target>Die Datenbankverbindung wird in der Datei &lt;em&gt;app/config/parameters.yml&lt;/em&gt; konfiguriert.</target>
       </trans-unit>
       <trans-unit id="tl_install.collation.0">
         <source>Collation</source>
@@ -80,14 +80,6 @@
       <trans-unit id="tl_install.admin.1">
         <source>If you have imported the example website, the admin's username is &lt;strong&gt;k.jones&lt;/strong&gt; and the password is &lt;strong&gt;kevinjones&lt;/strong&gt;. See the example website (front end) for more information.</source>
         <target>Wenn Sie die Beispielwebseite importiert haben, lautet der Benutzername des Administrators &lt;strong&gt;k.jones&lt;/strong&gt; und das Passwort &lt;strong&gt;kevinjones&lt;/strong&gt;. Rufen Sie die Beispielwebseite (Frontend) auf, um weitere Informationen zu erhalten.</target>
-      </trans-unit>
-      <trans-unit id="tl_install.repository.0">
-        <source>Extension repository</source>
-        <target>Erweiterungsverwaltung</target>
-      </trans-unit>
-      <trans-unit id="tl_install.repository.1">
-        <source>We are currently beta testing a new version of the extension repository, which uses Composer to manage packages. Please install the Composer client to participate in the beta test.</source>
-        <target>Wir testen momentan eine neue Version der Erweiterungsverwaltung, die Composer für das Paketmanagement verwendet. Bitte installieren Sie den Composer-Client, um am Beta-Test teilzunehmen.</target>
       </trans-unit>
       <trans-unit id="tl_install.completed.0">
         <source>Congratulations!</source>
@@ -149,6 +141,10 @@
         <source>Generate or save key</source>
         <target>Schlüssel erstellen bzw. speichern</target>
       </trans-unit>
+      <trans-unit id="tl_install.dbCheck">
+        <source>Database connection</source>
+        <target>Datenbankverbindung</target>
+      </trans-unit>
       <trans-unit id="tl_install.dbConfirm">
         <source>Database connection established.</source>
         <target>Datenbankverbindung hergestellt.</target>
@@ -156,46 +152,6 @@
       <trans-unit id="tl_install.dbError">
         <source>Not connected to a database!</source>
         <target>Keine Verbindung zur Datenbank vorhanden!</target>
-      </trans-unit>
-      <trans-unit id="tl_install.dbDriver">
-        <source>Driver</source>
-        <target>Treiber</target>
-      </trans-unit>
-      <trans-unit id="tl_install.dbHost">
-        <source>Host</source>
-        <target>Host</target>
-      </trans-unit>
-      <trans-unit id="tl_install.dbUsername">
-        <source>Username</source>
-        <target>Benutzername</target>
-      </trans-unit>
-      <trans-unit id="tl_install.dbDatabase">
-        <source>Database</source>
-        <target>Datenbank</target>
-      </trans-unit>
-      <trans-unit id="tl_install.dbPersistent">
-        <source>Persistent connection</source>
-        <target>Dauerhafte Verbindung</target>
-      </trans-unit>
-      <trans-unit id="tl_install.dbCharset">
-        <source>Character set</source>
-        <target>Zeichensatz</target>
-      </trans-unit>
-      <trans-unit id="tl_install.dbCollation">
-        <source>Collation</source>
-        <target>Kollation</target>
-      </trans-unit>
-      <trans-unit id="tl_install.dbPort">
-        <source>Port number</source>
-        <target>Portnummer</target>
-      </trans-unit>
-      <trans-unit id="tl_install.dbSocket">
-        <source>Socket file</source>
-        <target>Socket-Datei</target>
-      </trans-unit>
-      <trans-unit id="tl_install.dbSave">
-        <source>Save database settings</source>
-        <target>Einstellungen speichern</target>
       </trans-unit>
       <trans-unit id="tl_install.collationInfo">
         <source>Changing the collation will affect all tables with a &lt;em&gt;tl_&lt;/em&gt; prefix.</source>
@@ -276,18 +232,6 @@
       <trans-unit id="tl_install.adminSave">
         <source>Create admin account</source>
         <target>Ein Administratorkonto erstellen</target>
-      </trans-unit>
-      <trans-unit id="tl_install.repositoryDefault">
-        <source>You are using the default extension repository.</source>
-        <target>Sie verwenden die Standard-Erweiterungsverwaltung.</target>
-      </trans-unit>
-      <trans-unit id="tl_install.repositoryComposer">
-        <source>You are using the Composer based extension repository.</source>
-        <target>Sie verwenden die Composer-basierte Erweiterungsverwaltung.</target>
-      </trans-unit>
-      <trans-unit id="tl_install.repositoryInstall">
-        <source>Install the Composer client</source>
-        <target>Composer-Client installieren</target>
       </trans-unit>
       <trans-unit id="tl_install.installConfirm">
         <source>You have successfully installed Contao.</source>

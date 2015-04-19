@@ -289,6 +289,14 @@
         <source>Generates a user registration form</source>
         <target>ユーザー登録のフォームを生成</target>
       </trans-unit>
+      <trans-unit id="FMD.changePassword.0">
+        <source>Change password</source>
+        <target>パスワードの変更</target>
+      </trans-unit>
+      <trans-unit id="FMD.changePassword.1">
+        <source>Generates a form to change the password</source>
+        <target>パスワードを変更するフォームを生成</target>
+      </trans-unit>
       <trans-unit id="FMD.lostPassword.0">
         <source>Lost password</source>
         <target>パスワードの紛失</target>

@@ -30,8 +30,8 @@
         <target>インストールツールのパスワード</target>
       </trans-unit>
       <trans-unit id="tl_install.changePass.1">
-        <source>To additionally secure the Contao install tool, you can either rename or completely remove the &lt;strong&gt;contao/install.php&lt;/strong&gt; file.</source>
-        <target>Contaoのインストールツールをさらに安全にするには、&lt;strong&gt;contao/install.php&lt;/strong&gt;のファイルの名前を変更するか、完全に削除しても良いでしょう。</target>
+        <source>To additionally secure the Contao install tool, you can remove the &lt;strong&gt;contao_backend_install&lt;/strong&gt; route.</source>
+        <target>Contaoのインストールツールをさらに安全にするために、&lt;strong&gt;contao_backend_install&lt;/strong&gt;の経路を削除できます。</target>
       </trans-unit>
       <trans-unit id="tl_install.encryption.0">
         <source>Generate an encryption key</source>
@@ -42,12 +42,12 @@
         <target>この鍵は暗号化してデータを保存するときに使用します。暗号鍵だけで暗号化したデータを復号できることに注意してください! 従って、どこかに書き留めておいて、暗号化したデータが既に存在する場合は変更してはなりません。空のままにすると、ランダムな鍵を生成します。</target>
       </trans-unit>
       <trans-unit id="tl_install.database.0">
-        <source>Check database connection</source>
+        <source>Check the database connection</source>
         <target>データベースの接続確認</target>
       </trans-unit>
       <trans-unit id="tl_install.database.1">
-        <source>Please enter your database connection parameters.</source>
-        <target>データベースの接続の設定値を入力してください。</target>
+        <source>The database connection is configured in the &lt;em&gt;app/config/parameters.yml&lt;/em&gt; file.</source>
+        <target>データベースの接続は&lt;em&gt;app/config/parameters.yml&lt;/em&gt;というファイルで構成します。</target>
       </trans-unit>
       <trans-unit id="tl_install.collation.0">
         <source>Collation</source>
@@ -80,15 +80,6 @@
       <trans-unit id="tl_install.admin.1">
         <source>If you have imported the example website, the admin's username is &lt;strong&gt;k.jones&lt;/strong&gt; and the password is &lt;strong&gt;kevinjones&lt;/strong&gt;. See the example website (front end) for more information.</source>
         <target>ウェブサイトの例をインポートした場合は、管理者のユーザー名は&lt;strong&gt;k.jones&lt;/strong&gt;、パスワードは&lt;strong&gt;kevinjones&lt;/strong&gt;となります。より詳しい情報はインポートしたウェブサイト(のフロントエンド)を参照してください。</target>
-      </trans-unit>
-      <trans-unit id="tl_install.repository.0">
-        <source>Extension repository</source>
-        <target>機能拡張リポジトリ</target>
-      </trans-unit>
-      <trans-unit id="tl_install.repository.1">
-        <source>We are currently beta testing a new version of the extension repository, which uses Composer to manage packages. Please install the Composer client to participate in the beta test.</source>
-        <target>現在、パッケージの管理にComposerを使用している、機能拡張リポジ
-トリの新しいバージョンのベータテストを行っています。ベータテストに参加したい場合はComposerクライアントをインストールしてください。</target>
       </trans-unit>
       <trans-unit id="tl_install.completed.0">
         <source>Congratulations!</source>
@@ -150,6 +141,10 @@
         <source>Generate or save key</source>
         <target>鍵を生成または保存</target>
       </trans-unit>
+      <trans-unit id="tl_install.dbCheck">
+        <source>Database connection</source>
+        <target>データベースの接続</target>
+      </trans-unit>
       <trans-unit id="tl_install.dbConfirm">
         <source>Database connection established.</source>
         <target>データベースの接続を確立しました。</target>
@@ -157,46 +152,6 @@
       <trans-unit id="tl_install.dbError">
         <source>Not connected to a database!</source>
         <target>データベースに接続していません!</target>
-      </trans-unit>
-      <trans-unit id="tl_install.dbDriver">
-        <source>Driver</source>
-        <target>ドライバー</target>
-      </trans-unit>
-      <trans-unit id="tl_install.dbHost">
-        <source>Host</source>
-        <target>ホスト</target>
-      </trans-unit>
-      <trans-unit id="tl_install.dbUsername">
-        <source>Username</source>
-        <target>ユーザー名</target>
-      </trans-unit>
-      <trans-unit id="tl_install.dbDatabase">
-        <source>Database</source>
-        <target>データベース名</target>
-      </trans-unit>
-      <trans-unit id="tl_install.dbPersistent">
-        <source>Persistent connection</source>
-        <target>持続した接続</target>
-      </trans-unit>
-      <trans-unit id="tl_install.dbCharset">
-        <source>Character set</source>
-        <target>文字セット</target>
-      </trans-unit>
-      <trans-unit id="tl_install.dbCollation">
-        <source>Collation</source>
-        <target>照合順序</target>
-      </trans-unit>
-      <trans-unit id="tl_install.dbPort">
-        <source>Port number</source>
-        <target>ポート番号</target>
-      </trans-unit>
-      <trans-unit id="tl_install.dbSocket">
-        <source>Socket file</source>
-        <target>ソケットファイル</target>
-      </trans-unit>
-      <trans-unit id="tl_install.dbSave">
-        <source>Save database settings</source>
-        <target>データベースの設定を保存</target>
       </trans-unit>
       <trans-unit id="tl_install.collationInfo">
         <source>Changing the collation will affect all tables with a &lt;em&gt;tl_&lt;/em&gt; prefix.</source>
@@ -277,18 +232,6 @@
       <trans-unit id="tl_install.adminSave">
         <source>Create admin account</source>
         <target>管理者アカウントを作成</target>
-      </trans-unit>
-      <trans-unit id="tl_install.repositoryDefault">
-        <source>You are using the default extension repository.</source>
-        <target>既定の機能拡張リポジトリを使用しています。</target>
-      </trans-unit>
-      <trans-unit id="tl_install.repositoryComposer">
-        <source>You are using the Composer based extension repository.</source>
-        <target>Composerに基づいた機能拡張リポジトリを使用しています。</target>
-      </trans-unit>
-      <trans-unit id="tl_install.repositoryInstall">
-        <source>Install the Composer client</source>
-        <target>Composerクライアントをインストール</target>
       </trans-unit>
       <trans-unit id="tl_install.installConfirm">
         <source>You have successfully installed Contao.</source>

@@ -18,27 +18,22 @@
         <target>さらに詳しく教えてください</target>
       </trans-unit>
       <trans-unit id="XPT.hint">
-        <source>To customize this notice, create a custom template file named &lt;em&gt;%s&lt;/em&gt;.</source>
-        <target>この案内をカスタマイズするには、&lt;em&gt;%s&lt;/em&gt;という名前のカスタマイズしたテンプレートを作成してください。</target>
+        <source>To customize this notice, create a custom Twig template overriding &lt;em&gt;%s&lt;/em&gt;.</source>
+        <target>この通知をカスタマイズするには、&lt;em&gt;%s&lt;/em&gt;を上書きする独自のTwigテンプレートを作成してください。</target>
       </trans-unit>
       <trans-unit id="XPT.errorOccurred">
         <source>An error occurred while executing this script. Something does not work properly.</source>
         <target>このスクリプトの実行中にエラーが発生しました。何かが適切に動作していません。</target>
       </trans-unit>
       <trans-unit id="XPT.errorFixOne">
-        <source>Open the &lt;code&gt;system/logs/error.log&lt;/code&gt; file and find the associated error message (usually the last one). You can also add the following line to the local configuration file and reload this page:</source>
-        <target>&lt;code&gt;system/logs/error.log&lt;/code&gt;というファイルを開いて対応する(通常は最後の)エラーメッセージを探してください。また、以下の行をローカルの構成ファイルに追加して、このページを再読み込みしてください。</target>
-      </trans-unit>
-      <trans-unit id="XPT.errorFixTwo">
-        <source>However, please be aware that &lt;strong&gt;anyone&lt;/strong&gt; will be able to see error messages on your website then!</source>
-        <target>しかし、そうすると&lt;strong&gt;誰でも&lt;/strong&gt;ウェブサイトのエラーメッセージを見ることができるので注意してください。</target>
+        <source>Open the &lt;code&gt;app/logs/error.log&lt;/code&gt; file and find the associated error message (usually the last one).</source>
+        <target>&lt;code&gt;app/logs/error.log&lt;/code&gt;というファイルを開いて対応する(通常は最後の)エラーメッセージを探してください。</target>
       </trans-unit>
       <trans-unit id="XPT.errorExplain">
-        <source>The script execution stopped, because something does not work properly. The actual error message is hidden by this notice for security reasons and can be found in in the &lt;code&gt;system/logs/error.log&lt;/code&gt; file (see above). If you do not understand the error message or do not know how to fix the problem, search the &lt;a href=&quot;https://contao.org/faq.html&quot; target=&quot;_blank&quot;&gt;Contao FAQs&lt;/a&gt; or visit the &lt;a href=&quot;https://contao.org/support.html&quot; target=&quot;_blank&quot;&gt;Contao support page&lt;/a&gt;.</source>
-        <target>何かが適切に動作していないためスクリプトの実行を停止しました。
-実際のエラーメッセージはセキュリティ上の理由から表示していませんが、&lt;code&gt;
-system/logs/error.log&lt;/code&gt;というファイルに記録しています。エラーメッセージがよくわからない場合や修正する方法を知らない場合は、&lt;a href=&quot;https://contao.org/faq.html&quot; target=&quot;_blank&quot;&gt;ContaoのFAQ&lt;/a&gt;を調
-べるか、&lt;a href=&quot;https://contao.org/support.html&quot; target=&quot;_blank&quot;&gt;Contaoのサポートのページ&lt;/a&gt;にアクセスしてください。</target>
+        <source>The script execution stopped, because something does not work properly. The actual error message is hidden by this notice for security reasons and can be found in in the &lt;code&gt;app/logs/error.log&lt;/code&gt; file (see above). If you do not understand the error message or do not know how to fix the problem, search the &lt;a href=&quot;https://contao.org/faq.html&quot; target=&quot;_blank&quot;&gt;Contao FAQs&lt;/a&gt; or visit the &lt;a href=&quot;https://contao.org/support.html&quot; target=&quot;_blank&quot;&gt;Contao support page&lt;/a&gt;.</source>
+        <target>何かが適切に動作していないためスクリプトの実行を停止しました。実際のエラーメッセージはセキュリティ上の理由から表示していませんが、&lt;code&gt;
+-app/logs/error.log&lt;/code&gt;というファイルに記録しています。エラーメッセージがよくわからない場合や修正する方法を知らない場合は、&lt;a href=&quot;https://contao.org/faq.html&quot; target=&quot;_blank&quot;&gt;ContaoのFAQ&lt;/a&gt;を調
+-べるか、&lt;a href=&quot;https://contao.org/support.html&quot; target=&quot;_blank&quot;&gt;Contaoのサポートのページ&lt;/a&gt;にアクセスしてください。</target>
       </trans-unit>
       <trans-unit id="XPT.requestToken">
         <source>Invalid request token</source>
@@ -69,8 +64,8 @@ system/logs/error.log&lt;/code&gt;というファイルに記録しています�
         <target>インストールは完了していません、このためContaoは適切に動作しません。</target>
       </trans-unit>
       <trans-unit id="XPT.incompleteFix">
-        <source>Please open the Contao install tool by pointing your browser to &lt;code&gt;contao/install.php&lt;/code&gt; or, if you have not yet set the document root, to &lt;code&gt;web/contao/install.php&lt;/code&gt;.</source>
-        <target>ブラウザーに&lt;code&gt;contao/install.php&lt;/code&gt;を指定してインストールツールを開くか、ドキュメントルートを&lt;code&gt;web/contao/install.php&lt;/code&gt;に設定しているか確認してください。</target>
+        <source>Please open the Contao install tool by pointing your browser to &lt;code&gt;/contao/install&lt;/code&gt;.</source>
+        <target>ブラウザーに&lt;code&gt;contao/install.php&lt;/code&gt;を指定してインストールツールを開いてください。</target>
       </trans-unit>
       <trans-unit id="XPT.incompleteExplain">
         <source>For more information, please refer to the &lt;a href=&quot;https://contao.org/manual/installation.html&quot; target=&quot;_blank&quot;&gt;Contao manual&lt;/a&gt;.</source>
@@ -154,12 +149,16 @@ system/logs/error.log&lt;/code&gt;というファイルに記録しています�
         <target>ログインしていない場合は、&lt;a href=&quot;%s&quot;&gt;最上位に移動&lt;/a&gt;して、ログインフォームを探してください。ログインフォームがないか、既にログインしている場合は、&lt;a href=&quot;%s&quot;&gt;ウェブマスターに連絡&lt;/a&gt;して、何が問題があると知らせてください。</target>
       </trans-unit>
       <trans-unit id="XPT.unavailable">
-        <source>We'll be right back</source>
-        <target>しばらくお待ちください</target>
+        <source>Service unavailable</source>
+        <target>サービスを利用できません</target>
       </trans-unit>
       <trans-unit id="XPT.maintenance">
-        <source>The website is currently down for maintenance. Please come back later.</source>
-        <target>ウェブサイトは保守のために停止中です。後ほどお出でください。</target>
+        <source>The website is currently not available. Please come back later.</source>
+        <target>現在、このウェブサイトは利用できません。後ほどお出でください。</target>
+      </trans-unit>
+      <trans-unit id="XPT.insecure">
+        <source>Insecure document root</source>
+        <target>安全でないドキュメントルート</target>
       </trans-unit>
       <trans-unit id="XPT.insecureRoot">
         <source>Your installation is not secure, because non-public resources are publicy available via HTTP.</source>
@@ -170,8 +169,8 @@ system/logs/error.log&lt;/code&gt;というファイルに記録しています�
         <target>ドキュメントルートをサブフォルダーの&lt;code&gt;web/&lt;/code&gt;に設定してください。通常、これはサーバー管理パネルのドメインルーティングの部分か、サーバーの仮想ホストのファイルで設定します。</target>
       </trans-unit>
       <trans-unit id="XPT.insecureExplain">
-        <source>Contao 4 does no longer rely on &lt;code&gt;.htaccess&lt;/code&gt; files to protect folders but uses a public subfolder as document root instead. Anything above the document root must not be accessible via HTTP, otherwise anyone could download non-public resources including sensible data such as configuration files.</source>
-        <target>Contao 4は&lt;code&gt;.htaccess&lt;/code&gt;にはもう依存しないで、代わりにドキュメントルートに公開用の下位フォルダーを使用します。HTTPでドキュメントルートよりも上の階層にはアクセスできてはなりません。そうしないと構成ファイルのような重要なデータを含む、非公開のリソースを誰でもダウンロードできてしまいます。</target>
+        <source>Contao 4 no longer relies on &lt;code&gt;.htaccess&lt;/code&gt; files to protect folders and instead uses a public subfolder as document root. Anything above the document root must not be accessible via HTTP, otherwise anyone could download non-public resources including sensitive data such as configuration files.</source>
+        <target>Contao 4はフォルダーの保護を、もう&lt;code&gt;.htaccess&lt;/code&gt;には依存していません。代わりに公開用の下位フォルダーをドキュメントルートに使用します。HTTPでドキュメントルートよりも上の階層にはアクセスできてはなりません。そうしないと構成ファイルのような機密なデータを含む、非公開のリソースを誰でもダウンロードできてしまいます。</target>
       </trans-unit>
     </body>
   </file>

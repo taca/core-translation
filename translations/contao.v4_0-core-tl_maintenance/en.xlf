@@ -43,9 +43,6 @@
       <trans-unit id="tl_maintenance.notWriteable">
         <source>The temporary folder (system/tmp) is not writeable</source>
       </trans-unit>
-      <trans-unit id="tl_maintenance.changelog">
-        <source>View the change log</source>
-      </trans-unit>
       <trans-unit id="tl_maintenance.runLiveUpdate">
         <source>Run the update</source>
       </trans-unit>
@@ -131,7 +128,7 @@
         <source>Purge the internal cache</source>
       </trans-unit>
       <trans-unit id="tl_maintenance_jobs.internal.1">
-        <source>Removes the cached versions of the DCA and language files. You can permanently disable the internal cache in the back end settings.</source>
+        <source>Removes the cached versions of the config, DCA and language files.</source>
       </trans-unit>
       <trans-unit id="tl_maintenance_jobs.temp.0">
         <source>Purge the temp folder</source>

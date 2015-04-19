@@ -121,14 +121,6 @@
         <source>Do not collapse elements in the back end preview.</source>
         <target>Elemente in der Backend-Vorschau nicht verkürzen.</target>
       </trans-unit>
-      <trans-unit id="tl_settings.urlSuffix.0">
-        <source>URL suffix</source>
-        <target>URL-Suffix</target>
-      </trans-unit>
-      <trans-unit id="tl_settings.urlSuffix.1">
-        <source>The URL suffix will be added to the URI string to simulate static documents.</source>
-        <target>Das URL-Suffix wird der URL angehängt, um statische Dokumente zu simulieren.</target>
-      </trans-unit>
       <trans-unit id="tl_settings.cacheMode.0">
         <source>Cache mode</source>
         <target>Cache-Modus</target>
@@ -136,14 +128,6 @@
       <trans-unit id="tl_settings.cacheMode.1">
         <source>Here you can select the cache mode.</source>
         <target>Hier können Sie den Cache-Modus festlegen.</target>
-      </trans-unit>
-      <trans-unit id="tl_settings.proxyServerIps.0">
-        <source>Trusted proxy servers</source>
-        <target>Vertrauenswürdige Proxyserver</target>
-      </trans-unit>
-      <trans-unit id="tl_settings.proxyServerIps.1">
-        <source>Here you can enter a comma separated list of trusted proxy server IP addresses.</source>
-        <target>Hier können Sie eine kommagetrennte Liste vertrauenswürdiger Proxyserver-IP-Adressen eingeben.</target>
       </trans-unit>
       <trans-unit id="tl_settings.sslProxyDomain.0">
         <source>SSL proxy domain</source>
@@ -168,14 +152,6 @@
       <trans-unit id="tl_settings.privacyAnonymizeGA.1">
         <source>Anonymize the IP addresses that are sent to Google Analytics.</source>
         <target>Alle IP-Adressen anonymisieren, die an Google Analytics geschickt werden.</target>
-      </trans-unit>
-      <trans-unit id="tl_settings.addLanguageToUrl.0">
-        <source>Add the language to the URL</source>
-        <target>Die Sprache zur URL hinzufügen</target>
-      </trans-unit>
-      <trans-unit id="tl_settings.addLanguageToUrl.1">
-        <source>Add the language string as first URL parameter (e.g. &lt;em&gt;http://example.com/en/&lt;/em&gt;).</source>
-        <target>Die Sprache als ersten Parameter zur URL hinzufügen (z.B. &lt;em&gt;http://example.com/de/&lt;/em&gt;).</target>
       </trans-unit>
       <trans-unit id="tl_settings.doNotRedirectEmpty.0">
         <source>Do not redirect empty URLs</source>
@@ -217,14 +193,6 @@
         <source>Send a 503 HTTP header and show a maintenance page in the front end.</source>
         <target>Sendet einen 503er HTTP-Header und gibt eine Wartungsseite im Frontend aus.</target>
       </trans-unit>
-      <trans-unit id="tl_settings.bypassCache.0">
-        <source>Bypass the internal cache</source>
-        <target>Internen Cache umgehen</target>
-      </trans-unit>
-      <trans-unit id="tl_settings.bypassCache.1">
-        <source>Do not use the internal cache files (e.g. useful when developing extensions).</source>
-        <target>Die internen Cache-Dateien ignorieren (z.B. nützlich bei der Extension-Entwicklung).</target>
-      </trans-unit>
       <trans-unit id="tl_settings.disableRefererCheck.0">
         <source>Disable request tokens</source>
         <target>Anfrage-Tokens deaktivieren</target>
@@ -240,30 +208,6 @@
       <trans-unit id="tl_settings.lockPeriod.1">
         <source>An account will be locked if a wrong password is entered three times in a row.</source>
         <target>Ein Konto wird gesperrt, wenn drei Mal hintereinander ein falsches Passwort eingegeben wird.</target>
-      </trans-unit>
-      <trans-unit id="tl_settings.displayErrors.0">
-        <source>Display error messages</source>
-        <target>Fehlermeldungen anzeigen</target>
-      </trans-unit>
-      <trans-unit id="tl_settings.displayErrors.1">
-        <source>Print error messages to the screen (not recommended for productional sites).</source>
-        <target>Fehlermeldungen auf dem Bildschirm ausgeben (nicht empfohlen für produktive Seiten).</target>
-      </trans-unit>
-      <trans-unit id="tl_settings.logErrors.0">
-        <source>Log error messages</source>
-        <target>Fehlermeldungen protokollieren</target>
-      </trans-unit>
-      <trans-unit id="tl_settings.logErrors.1">
-        <source>Write error messages to the error log file (&lt;em&gt;system/logs/error.log&lt;/em&gt;).</source>
-        <target>Fehlermeldungen in die Fehler-Logdatei (&lt;em&gt;system/logs/error.log&lt;/em&gt;) schreiben.</target>
-      </trans-unit>
-      <trans-unit id="tl_settings.coreOnlyMode.0">
-        <source>Run in safe mode</source>
-        <target>Abgesicherter Modus</target>
-      </trans-unit>
-      <trans-unit id="tl_settings.coreOnlyMode.1">
-        <source>Run Contao in safe mode and load only core modules.</source>
-        <target>Contao im abgesicherten Modus betreiben und nur Core-Module laden.</target>
       </trans-unit>
       <trans-unit id="tl_settings.disableIpCheck.0">
         <source>Disable IP check</source>
@@ -336,14 +280,6 @@
       <trans-unit id="tl_settings.gdMaxImgHeight.1">
         <source>Here you can enter the maximum image height that the GD library shall try to handle.</source>
         <target>Hier können Sie die maximale Bildhöhe eingeben, die die GD Library zu verarbeiten versuchen soll.</target>
-      </trans-unit>
-      <trans-unit id="tl_settings.uploadPath.0">
-        <source>Files directory</source>
-        <target>Files-Verzeichnis</target>
-      </trans-unit>
-      <trans-unit id="tl_settings.uploadPath.1">
-        <source>Here you can set the relative path to the Contao files directory.</source>
-        <target>Hier können Sie den relativen Pfad zum Contao Files-Verzeichnis eingeben.</target>
       </trans-unit>
       <trans-unit id="tl_settings.uploadTypes.0">
         <source>Upload file types</source>

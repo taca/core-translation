@@ -57,10 +57,6 @@
         <source>The temporary folder (system/tmp) is not writeable</source>
         <target>一時フォルダー(system/tmp)に書き込みできません。</target>
       </trans-unit>
-      <trans-unit id="tl_maintenance.changelog">
-        <source>View the change log</source>
-        <target>変更履歴を表示</target>
-      </trans-unit>
       <trans-unit id="tl_maintenance.runLiveUpdate">
         <source>Run the update</source>
         <target>アップデートを実行</target>
@@ -175,8 +171,8 @@
         <target>内部キャッシュを消去</target>
       </trans-unit>
       <trans-unit id="tl_maintenance_jobs.internal.1">
-        <source>Removes the cached versions of the DCA and language files. You can permanently disable the internal cache in the back end settings.</source>
-        <target>DCAと言語ファイルのキャッシュ版を削除します。バックエンドの設定で内部キャッシュを恒久的に無効にできます。</target>
+        <source>Removes the cached versions of the config, DCA and language files.</source>
+        <target>構成、DCA、言語ファイルのキャッシュした版を削除します。</target>
       </trans-unit>
       <trans-unit id="tl_maintenance_jobs.temp.0">
         <source>Purge the temp folder</source>

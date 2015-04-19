@@ -1803,14 +1803,6 @@ Diese E-Mail wurde von Contao generiert. Sie können nicht darauf antworten.
         <source>%s (copy)</source>
         <target>%s (Kopie)</target>
       </trans-unit>
-      <trans-unit id="MSC.coreOnlyMode">
-        <source>Contao is currently running in &lt;strong&gt;safe mode&lt;/strong&gt;, in which only core modules are loaded, to prevent possible incompatibilities with third-party extensions (e.g. after a Live Update). After you have checked the installed extensions, you can disable the safe mode again.</source>
-        <target>Contao läuft momentan im &lt;strong&gt;abgesicherten Modus&lt;/strong&gt;, in dem nur Core-Module geladen werden, um Fehlern durch inkompatible Third-Party-Erweiterungen vorzubeugen. Nach Prüfung der installierten Erweiterungen können Sie den abgesicherten Modus wieder deaktivieren.</target>
-      </trans-unit>
-      <trans-unit id="MSC.coreOnlyOff">
-        <source>Disable</source>
-        <target>Deaktivieren</target>
-      </trans-unit>
       <trans-unit id="MSC.maintenanceMode">
         <source>Contao is currently running in &lt;strong&gt;maintenance mode&lt;/strong&gt;, in which the website (front end) is not available. Do not disable it if you are currently installing or upgrading third-party extensions! The website might not function properly.</source>
         <target>Contao läuft momentan im &lt;strong&gt;Wartungsmodus&lt;/strong&gt;, in dem die Webseite (Frontend) nicht verfügbar ist. Deaktivieren Sie den Wartungsmodus nicht, wenn Sie gerade Erweiterungen installieren oder aktualisieren! Die Webseite würde unter Umständen nicht richtig funktionieren.</target>
@@ -1820,8 +1812,8 @@ Diese E-Mail wurde von Contao generiert. Sie können nicht darauf antworten.
         <target>Deaktivieren</target>
       </trans-unit>
       <trans-unit id="MSC.buildCacheText">
-        <source>The &lt;strong&gt;internal cache&lt;/strong&gt; has not been built yet. Building the cache will improve the performance of the application and is highly recommended. If you do not want to use the cache, you can permanently disable it in the back end settings.</source>
-        <target>Der &lt;strong&gt;interne Cache&lt;/strong&gt; wurde noch nicht aufgebaut, was sich nachteilig auf die Performance der Applikation auswirkt. Wenn Sie den internen Cache nicht nutzen möchten, können Sie ihn in den Backend-Einstellungen dauerhaft deaktivieren.</target>
+        <source>The &lt;strong&gt;internal cache&lt;/strong&gt; has not been built yet. Building the internal cache will improve the performance of the application and is highly recommended. The internal cache will be built automatically every time you run &lt;code&gt;app/console cache:warmup -e %s&lt;/code&gt; on the command line.</source>
+        <target>Der &lt;strong&gt;interne Cache&lt;/strong&gt; wurde noch nicht aufgebaut, was sich nachteilig auf die Performance der Applikation auswirkt. Der interne Cache wird automatisch aufgebaut, wenn Sie &lt;code&gt;app/console cache:warmup -e %s&lt;/code&gt; auf der Kommandozeile ausführen.</target>
       </trans-unit>
       <trans-unit id="MSC.buildCacheLink">
         <source>Build the cache</source>
@@ -1878,6 +1870,18 @@ Diese E-Mail wurde von Contao generiert. Sie können nicht darauf antworten.
       <trans-unit id="MSC.accountNotFound">
         <source>No matching account found</source>
         <target>Kein passendes Konto gefunden</target>
+      </trans-unit>
+      <trans-unit id="MSC.oldPassword">
+        <source>Old password</source>
+        <target>Altes Passwort</target>
+      </trans-unit>
+      <trans-unit id="MSC.newPassword">
+        <source>New password</source>
+        <target>Neues Passwort</target>
+      </trans-unit>
+      <trans-unit id="MSC.changePassword">
+        <source>Change password</source>
+        <target>Passwort ändern</target>
       </trans-unit>
       <trans-unit id="MSC.securityQuestion">
         <source>Security question</source>
@@ -2147,10 +2151,6 @@ Diese E-Mail wurde von Contao generiert. Sie können nicht darauf antworten.
         <source>Invalid token</source>
         <target>Ungültiges Token</target>
       </trans-unit>
-      <trans-unit id="MSC.changelog">
-        <source>Changelog</source>
-        <target>Änderungsliste</target>
-      </trans-unit>
       <trans-unit id="MSC.dragItemsHint">
         <source>Drag the items to re-order them</source>
         <target>Elemente können durch Ziehen umsortiert werden</target>
@@ -2242,6 +2242,26 @@ Diese E-Mail wurde von Contao generiert. Sie können nicht darauf antworten.
       <trans-unit id="DP.week">
         <source>Wk</source>
         <target>W</target>
+      </trans-unit>
+      <trans-unit id="COLS.header">
+        <source>Header</source>
+        <target>Kopfzeile</target>
+      </trans-unit>
+      <trans-unit id="COLS.left">
+        <source>Left column</source>
+        <target>Linke Spalte</target>
+      </trans-unit>
+      <trans-unit id="COLS.main">
+        <source>Main column</source>
+        <target>Hauptspalte</target>
+      </trans-unit>
+      <trans-unit id="COLS.right">
+        <source>Right column</source>
+        <target>Rechte Spalte</target>
+      </trans-unit>
+      <trans-unit id="COLS.footer">
+        <source>Footer</source>
+        <target>Fußzeile</target>
       </trans-unit>
     </body>
   </file>
