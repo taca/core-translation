@@ -166,8 +166,8 @@
         <target>レイアウトビルダー</target>
       </trans-unit>
       <trans-unit id="tl_layout.layout.css.1">
-        <source>Generates a responsive CSS layout based on the page layout settings. This component is required for the page layout generator to work!</source>
-        <target>ページレイアウトの設定に基づいてレスポンシブCSSによる配置を生成します。この構成要素はレイアウトビルダーが動作するために必要です!</target>
+        <source>Generates a CSS layout based on the page layout settings. This component is required for the page layout generator to work!</source>
+        <target>ページレイアウトの設定に基づいてCSSによる配置を生成します。この構成要素はレイアウトビルダーが動作するために必要です!</target>
       </trans-unit>
       <trans-unit id="tl_layout.responsive.css.0">
         <source>Responsive layout</source>
@@ -310,8 +310,8 @@
         <target>titleタグ</target>
       </trans-unit>
       <trans-unit id="tl_layout.titleTag.1">
-        <source>Here you can overwrite the title tag (defaults to &lt;em&gt;{{page::pageTitle}} - {{page::rootTitle}}&lt;/em&gt;).</source>
-        <target>titleタグを上書きできます。(初期値: &lt;em&gt;{{page::pageTitle}} - {{page::rootTitle}}&lt;/em&gt;)</target>
+        <source>Here you can overwrite the title tag (defaults to &lt;em&gt;{{page::pageTitle}} - {{page::rootPageTitle}}&lt;/em&gt;).</source>
+        <target>titleタグを上書きできます。(初期値: &lt;em&gt;{{page::pageTitle}} - {{page::rootPageTitle}}&lt;/em&gt;)</target>
       </trans-unit>
       <trans-unit id="tl_layout.onload.0">
         <source>Body onload</source>

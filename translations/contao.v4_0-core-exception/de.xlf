@@ -30,7 +30,7 @@
         <target>Öffnen Sie die Datei &lt;code&gt;app/logs/error.log&lt;/code&gt; und suchen Sie die zugehörige Fehlermeldung (normalerweise die letzte).</target>
       </trans-unit>
       <trans-unit id="XPT.errorExplain">
-        <source>The script execution stopped, because something does not work properly. The actual error message is hidden by this notice for security reasons and can be found in in the &lt;code&gt;app/logs/error.log&lt;/code&gt; file (see above). If you do not understand the error message or do not know how to fix the problem, search the &lt;a href=&quot;https://contao.org/faq.html&quot; target=&quot;_blank&quot;&gt;Contao FAQs&lt;/a&gt; or visit the &lt;a href=&quot;https://contao.org/support.html&quot; target=&quot;_blank&quot;&gt;Contao support page&lt;/a&gt;.</source>
+        <source>The script execution stopped, because something does not work properly. The actual error message is hidden by this notice for security reasons and can be found in the &lt;code&gt;app/logs/error.log&lt;/code&gt; file (see above). If you do not understand the error message or do not know how to fix the problem, search the &lt;a href=&quot;https://contao.org/faq.html&quot; target=&quot;_blank&quot;&gt;Contao FAQs&lt;/a&gt; or visit the &lt;a href=&quot;https://contao.org/support.html&quot; target=&quot;_blank&quot;&gt;Contao support page&lt;/a&gt;.</source>
         <target>Die Skriptausführung wurde gestoppt, weil irgendetwas nicht korrekt funktioniert. Die eigentliche Fehlermeldung wird aus Sicherheitsgründen hinter dieser Meldung verborgen und findet sich in der Datei &lt;code&gt;app/logs/error.log&lt;/code&gt; (siehe oben). Wenn Sie die Fehlermeldung nicht verstehen oder nicht wissen, wie das Problem zu beheben ist, durchsuchen Sie die &lt;a href=&quot;https://contao.org/faq.html&quot; target=&quot;_blank&quot;&gt;Contao-FAQs&lt;/a&gt; oder besuchen Sie die &lt;a href=&quot;https://contao.org/support.html&quot; target=&quot;_blank&quot;&gt;Contao-Supportseite&lt;/a&gt;.</target>
       </trans-unit>
       <trans-unit id="XPT.requestToken">
@@ -63,6 +63,7 @@
       </trans-unit>
       <trans-unit id="XPT.incompleteFix">
         <source>Please open the Contao install tool by pointing your browser to &lt;code&gt;/contao/install&lt;/code&gt;.</source>
+        <target>Bitte öffnen Sie das Contao-Installtool, indem Sie die Route &lt;code&gt;/contao/install&lt;/code&gt; in Ihrem Browser aufrufen.</target>
       </trans-unit>
       <trans-unit id="XPT.incompleteExplain">
         <source>For more information, please refer to the &lt;a href=&quot;https://contao.org/manual/installation.html&quot; target=&quot;_blank&quot;&gt;Contao manual&lt;/a&gt;.</source>
@@ -146,12 +147,15 @@
       </trans-unit>
       <trans-unit id="XPT.unavailable">
         <source>Service unavailable</source>
+        <target>Dienst nicht verfügbar</target>
       </trans-unit>
       <trans-unit id="XPT.maintenance">
         <source>The website is currently not available. Please come back later.</source>
+        <target>Die Webseite ist momentan nicht verfügbar. Bitte versuchen Sie es später noch einmal.</target>
       </trans-unit>
       <trans-unit id="XPT.insecure">
         <source>Insecure document root</source>
+        <target>Unsicheres Document-Root</target>
       </trans-unit>
       <trans-unit id="XPT.insecureRoot">
         <source>Your installation is not secure, because non-public resources are publicy available via HTTP.</source>
@@ -163,6 +167,7 @@
       </trans-unit>
       <trans-unit id="XPT.insecureExplain">
         <source>Contao 4 no longer relies on &lt;code&gt;.htaccess&lt;/code&gt; files to protect folders and instead uses a public subfolder as document root. Anything above the document root must not be accessible via HTTP, otherwise anyone could download non-public resources including sensitive data such as configuration files.</source>
+        <target>Contao 4 benutzt keine &lt;code&gt;.htaccess&lt;/code&gt;-Dateien mehr für den Zugriffsschutz und verwendet stattdessen einen öffentlichen Unterordner als Document-Root. Alles oberhalb des Document-Root darf nicht über HTTP erreichbar sein, da andernfalls jeder nicht-öffentliche Ressourcen, inklusive sensibler Dateien wie Konfigurationsdateien, herunterladen könnte.</target>
       </trans-unit>
     </body>
   </file>
