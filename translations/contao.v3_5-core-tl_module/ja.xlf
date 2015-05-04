@@ -402,8 +402,8 @@
         <target>ライトボックスにフルサイズの画像、または新しいブラウザーのウィンドウにリンクを開きます。</target>
       </trans-unit>
       <trans-unit id="tl_module.imgSize.0">
-        <source>Image width and height</source>
-        <target>画像の幅と高さ</target>
+        <source>Image size</source>
+        <target>画像の大きさ</target>
       </trans-unit>
       <trans-unit id="tl_module.imgSize.1">
         <source>Here you can set the image dimensions and the resize mode.</source>
