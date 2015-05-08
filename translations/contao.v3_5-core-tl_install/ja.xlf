@@ -120,7 +120,7 @@
       </trans-unit>
       <trans-unit id="tl_install.passConfirm">
         <source>A custom password has been set.</source>
-        <target>入力されたパスワードを設定しました。</target>
+        <target>入力したパスワードを設定しました。</target>
       </trans-unit>
       <trans-unit id="tl_install.passSave">
         <source>Save password</source>

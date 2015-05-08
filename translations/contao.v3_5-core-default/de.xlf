@@ -1895,6 +1895,10 @@ Diese E-Mail wurde von Contao generiert. Sie können nicht darauf antworten.
         <source>Change password</source>
         <target>Passwort ändern</target>
       </trans-unit>
+      <trans-unit id="MSC.oldPasswordWrong">
+        <source>The old password is not correct</source>
+        <target>Das alte Passwort ist nicht korrekt</target>
+      </trans-unit>
       <trans-unit id="MSC.securityQuestion">
         <source>Security question</source>
         <target>Sicherheitsfrage</target>
