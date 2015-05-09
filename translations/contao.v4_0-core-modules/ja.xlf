@@ -333,11 +333,11 @@
         <source>Adds a search form to the page</source>
         <target>検索欄をページに追加</target>
       </trans-unit>
-      <trans-unit id="FMD.articleList.0">
+      <trans-unit id="FMD.articlelist.0">
         <source>Article list</source>
         <target>アーティクルリスト</target>
       </trans-unit>
-      <trans-unit id="FMD.articleList.1">
+      <trans-unit id="FMD.articlelist.1">
         <source>Generates a list of articles of a column</source>
         <target>列にアーティクルのリストを生成</target>
       </trans-unit>
@@ -369,11 +369,11 @@
         <source>Allows you to add custom HTML code</source>
         <target>独自のHTMLコードを追加</target>
       </trans-unit>
-      <trans-unit id="FMD.rss_reader.0">
+      <trans-unit id="FMD.rssReader.0">
         <source>RSS reader</source>
         <target>RSSリーダー</target>
       </trans-unit>
-      <trans-unit id="FMD.rss_reader.1">
+      <trans-unit id="FMD.rssReader.1">
         <source>Adds an RSS feed to the page</source>
         <target>RSSフィードをページに追加</target>
       </trans-unit>

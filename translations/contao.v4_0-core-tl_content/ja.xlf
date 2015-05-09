@@ -58,8 +58,8 @@
         <target>画像の題名(&lt;em&gt;title&lt;/em&gt;属性)を指定できます。</target>
       </trans-unit>
       <trans-unit id="tl_content.size.0">
-        <source>Image width and height</source>
-        <target>画像の幅と高さ</target>
+        <source>Image size</source>
+        <target>画像の大きさ</target>
       </trans-unit>
       <trans-unit id="tl_content.size.1">
         <source>Here you can set the image dimensions and the resize mode.</source>

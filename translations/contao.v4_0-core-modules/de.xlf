@@ -333,13 +333,13 @@
         <source>Adds a search form to the page</source>
         <target>Fügt der Seite ein Suchformular hinzu</target>
       </trans-unit>
-      <trans-unit id="FMD.articleList.0">
+      <trans-unit id="FMD.articlelist.0">
         <source>Article list</source>
         <target>Artikelliste</target>
       </trans-unit>
-      <trans-unit id="FMD.articleList.1">
+      <trans-unit id="FMD.articlelist.1">
         <source>Generates a list of articles of a column</source>
-        <target>Erzeugt eine Liste aller Artikel einer Spalte</target>
+        <target>Erzeugt ein Liste aller Artikel einer Spalte</target>
       </trans-unit>
       <trans-unit id="FMD.miscellaneous">
         <source>Miscellaneous</source>
@@ -369,11 +369,11 @@
         <source>Allows you to add custom HTML code</source>
         <target>Erlaubt das Hinzufügen von eigenem HTML-Code</target>
       </trans-unit>
-      <trans-unit id="FMD.rss_reader.0">
+      <trans-unit id="FMD.rssReader.0">
         <source>RSS reader</source>
-        <target>RSS-Reader</target>
+        <target>RSS-Leser</target>
       </trans-unit>
-      <trans-unit id="FMD.rss_reader.1">
+      <trans-unit id="FMD.rssReader.1">
         <source>Adds an RSS feed to the page</source>
         <target>Fügt der Seite einen RSS-Feed hinzu</target>
       </trans-unit>

@@ -402,8 +402,8 @@
         <target>Großansicht des Bildes in einer Lightbox bzw. den Link in einem neuem Browserfenster öffnen.</target>
       </trans-unit>
       <trans-unit id="tl_module.imgSize.0">
-        <source>Image width and height</source>
-        <target>Bildbreite und Bildhöhe</target>
+        <source>Image size</source>
+        <target>Bildgröße</target>
       </trans-unit>
       <trans-unit id="tl_module.imgSize.1">
         <source>Here you can set the image dimensions and the resize mode.</source>

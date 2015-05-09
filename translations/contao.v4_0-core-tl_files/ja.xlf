@@ -62,7 +62,7 @@
         <target>ファイルをアップロード</target>
       </trans-unit>
       <trans-unit id="tl_files.fileupload.1">
-        <source>Select the files you want to upload to the server (maximum %s and %s pixel).</source>
+        <source>Select the files you want to upload to the server (maximum %s and %s pixels).</source>
         <target>サーバーにアップロードしたいファイル(最大で%sと%sピクセル)を選択してください。</target>
       </trans-unit>
       <trans-unit id="tl_files.editor.0">
