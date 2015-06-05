@@ -1,9 +1,9 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="contao/languages/en/tl_maintenance.php" source-language="en">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_maintenance.php" source-language="en">
     <body>
       <trans-unit id="tl_maintenance.cacheTables.0">
         <source>Purge data</source>
-        <target>データの消去</target>
+        <target>データを消去</target>
       </trans-unit>
       <trans-unit id="tl_maintenance.cacheTables.1">
         <source>Please select the data you want to purge or rebuild.</source>

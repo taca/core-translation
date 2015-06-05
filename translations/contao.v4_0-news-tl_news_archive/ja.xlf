@@ -1,9 +1,9 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="contao/languages/en/tl_news_archive.php" source-language="en">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_news_archive.php" source-language="en">
     <body>
       <trans-unit id="tl_news_archive.title.0">
         <source>Title</source>
-        <target>名前</target>
+        <target>題名</target>
       </trans-unit>
       <trans-unit id="tl_news_archive.title.1">
         <source>Please enter a news archive title.</source>
@@ -139,7 +139,7 @@
       </trans-unit>
       <trans-unit id="tl_news_archive.source_text">
         <source>Full articles</source>
-        <target>完全な記事</target>
+        <target>記事全体</target>
       </trans-unit>
       <trans-unit id="tl_news_archive.new.0">
         <source>New archive</source>

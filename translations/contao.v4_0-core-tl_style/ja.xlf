@@ -1,5 +1,5 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="contao/languages/en/tl_style.php" source-language="en">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_style.php" source-language="en">
     <body>
       <trans-unit id="tl_style.invisible.0">
         <source>Invisible</source>
@@ -91,7 +91,7 @@
       </trans-unit>
       <trans-unit id="tl_style.positioning.0">
         <source>Position</source>
-        <target>位置</target>
+        <target>位置(top, right, bottom, left)</target>
       </trans-unit>
       <trans-unit id="tl_style.positioning.1">
         <source>Position, float, clear, overflow and display.</source>
@@ -159,7 +159,7 @@
       </trans-unit>
       <trans-unit id="tl_style.margin.1">
         <source>Here you can enter the top, right, bottom and left margin.</source>
-        <target>上、右、下、左のマージンを入力できます。</target>
+        <target>上、右、下、左の余白(マージン)を入力できます。</target>
       </trans-unit>
       <trans-unit id="tl_style.padding.0">
         <source>Padding</source>
@@ -451,7 +451,7 @@
       </trans-unit>
       <trans-unit id="tl_style.position_legend">
         <source>Position</source>
-        <target>位置</target>
+        <target>位置(top, right, bottom, left)</target>
       </trans-unit>
       <trans-unit id="tl_style.align_legend">
         <source>Margin and alignment</source>
@@ -623,7 +623,7 @@
       </trans-unit>
       <trans-unit id="tl_style.pastenew.0">
         <source>Add new at the top</source>
-        <target>先頭に追加</target>
+        <target>先頭に新しく追加</target>
       </trans-unit>
       <trans-unit id="tl_style.pastenew.1">
         <source>Add new after format definition ID %s</source>

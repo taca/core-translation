@@ -1,9 +1,9 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="contao/languages/en/tl_image_size.php" source-language="en">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_image_size.php" source-language="en">
     <body>
       <trans-unit id="tl_image_size.name.0">
         <source>Name</source>
-        <target>名前</target>
+        <target>氏名</target>
       </trans-unit>
       <trans-unit id="tl_image_size.name.1">
         <source>Please enter the image size name.</source>
@@ -11,7 +11,7 @@
       </trans-unit>
       <trans-unit id="tl_image_size.width.0">
         <source>Width</source>
-        <target>幅</target>
+        <target>幅(width)</target>
       </trans-unit>
       <trans-unit id="tl_image_size.width.1">
         <source>Here you can enter the width in pixels.</source>
@@ -19,7 +19,7 @@
       </trans-unit>
       <trans-unit id="tl_image_size.height.0">
         <source>Height</source>
-        <target>高さ</target>
+        <target>高さ(height)</target>
       </trans-unit>
       <trans-unit id="tl_image_size.height.1">
         <source>Here you can enter the height in pixels.</source>

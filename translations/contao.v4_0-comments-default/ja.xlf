@@ -1,9 +1,9 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="contao/languages/en/default.php" source-language="en">
+  <file datatype="php" original="src/Resources/contao/languages/en/default.php" source-language="en">
     <body>
       <trans-unit id="MSC.com_name">
         <source>Name</source>
-        <target>名前</target>
+        <target>氏名</target>
       </trans-unit>
       <trans-unit id="MSC.com_email">
         <source>E-mail (not published)</source>
@@ -90,7 +90,7 @@ If you are moderating comments, you have to log in to the back end to publish it
       </trans-unit>
       <trans-unit id="MSC.com_optInSubject">
         <source>Your subscription on %s</source>
-        <target>%sで登録</target>
+        <target>%sでの購読</target>
       </trans-unit>
       <trans-unit id="MSC.com_optInMessage">
         <source>Hello %s,

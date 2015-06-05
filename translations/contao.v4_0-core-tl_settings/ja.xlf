@@ -1,5 +1,5 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="contao/languages/en/tl_settings.php" source-language="en">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_settings.php" source-language="en">
     <body>
       <trans-unit id="tl_settings.websiteTitle.0">
         <source>Website title</source>
@@ -15,7 +15,7 @@
       </trans-unit>
       <trans-unit id="tl_settings.adminEmail.1">
         <source>Auto-generated messages like subscription confirmation e-mails will be sent to this address.</source>
-        <target>申し込みの確認の電子メールといった、自動的に生成するメッセージはこのアドレスから送信します。</target>
+        <target>申し込みの確認の電子メールのような、自動的に生成するメッセージはこのアドレスから送信します。</target>
       </trans-unit>
       <trans-unit id="tl_settings.dateFormat.0">
         <source>Date format</source>
@@ -91,7 +91,7 @@
       </trans-unit>
       <trans-unit id="tl_settings.resultsPerPage.0">
         <source>Items per page</source>
-        <target>1ページの項目数</target>
+        <target>1ページの項目</target>
       </trans-unit>
       <trans-unit id="tl_settings.resultsPerPage.1">
         <source>Here you can define the number of items per page in the back end.</source>
@@ -375,7 +375,7 @@
       </trans-unit>
       <trans-unit id="tl_settings.smtpEnc.1">
         <source>Here you can choose an encryption method (SSL or TLS).</source>
-        <target>暗号化の方法を(SSLまたはTLSから)選択します。</target>
+        <target>SMTPの暗号化の方法(SSLまたはTLS)を選択します。</target>
       </trans-unit>
       <trans-unit id="tl_settings.smtpPort.0">
         <source>SMTP port number</source>
@@ -383,7 +383,7 @@
       </trans-unit>
       <trans-unit id="tl_settings.smtpPort.1">
         <source>Please enter the port number of the SMTP server.</source>
-        <target>SMTPサーバーの番号を入力してください。</target>
+        <target>SMTPサーバーのポート番号を入力します。</target>
       </trans-unit>
       <trans-unit id="tl_settings.undoPeriod.0">
         <source>Storage time for undo steps</source>

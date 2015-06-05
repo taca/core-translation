@@ -1,5 +1,5 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="contao/languages/en/tl_content.php" source-language="en">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_content.php" source-language="en">
     <body>
       <trans-unit id="tl_content.type.0">
         <source>Element type</source>
@@ -27,7 +27,7 @@
       </trans-unit>
       <trans-unit id="tl_content.addImage.0">
         <source>Add an image</source>
-        <target>画像の追加</target>
+        <target>画像を追加</target>
       </trans-unit>
       <trans-unit id="tl_content.addImage.1">
         <source>Add an image to the content element.</source>
@@ -538,14 +538,6 @@
         <source>Here you can set an ID and one or more classes.</source>
         <target>IDと1つ以上のclassを設定できます。</target>
       </trans-unit>
-      <trans-unit id="tl_content.space.0">
-        <source>Space in front and after</source>
-        <target>前後の間隔</target>
-      </trans-unit>
-      <trans-unit id="tl_content.space.1">
-        <source>Here you can enter the spacing in front of and after the content element in pixel. You should try to avoid inline styles and define the spacing in a style sheet, though.</source>
-        <target>コンテント要素の前後の間隔をピクセルで入力できます。但し、このようなインラインのスタイルは避けて、スタイルシートで間隔を設定すべきです。</target>
-      </trans-unit>
       <trans-unit id="tl_content.invisible.0">
         <source>Invisible</source>
         <target>非表示</target>
@@ -556,7 +548,7 @@
       </trans-unit>
       <trans-unit id="tl_content.start.0">
         <source>Show from</source>
-        <target>表示の開始</target>
+        <target>公開の開始日</target>
       </trans-unit>
       <trans-unit id="tl_content.start.1">
         <source>Do not show the element on the website before this day.</source>
@@ -564,7 +556,7 @@
       </trans-unit>
       <trans-unit id="tl_content.stop.0">
         <source>Show until</source>
-        <target>表示の終了日</target>
+        <target>公開の終了日</target>
       </trans-unit>
       <trans-unit id="tl_content.stop.1">
         <source>Do not show the element on the website on and after this day.</source>
@@ -740,7 +732,7 @@
       </trans-unit>
       <trans-unit id="tl_content.editheader.0">
         <source>Edit article settings</source>
-        <target>アーティクルの設定を変更</target>
+        <target>記事の設定を変更</target>
       </trans-unit>
       <trans-unit id="tl_content.editheader.1">
         <source>Edit the settings of the article</source>
@@ -780,7 +772,7 @@
       </trans-unit>
       <trans-unit id="tl_content.editarticle.0">
         <source>Edit article</source>
-        <target>アーティクルを編集</target>
+        <target>記事を編集</target>
       </trans-unit>
       <trans-unit id="tl_content.editarticle.1">
         <source>Edit article ID %s</source>

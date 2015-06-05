@@ -1,9 +1,9 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="contao/languages/en/tl_module.php" source-language="en">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_module.php" source-language="en">
     <body>
       <trans-unit id="tl_module.list_table.0">
         <source>Table</source>
-        <target>テーブル</target>
+        <target>表</target>
       </trans-unit>
       <trans-unit id="tl_module.list_table.1">
         <source>Please choose the source table.</source>
@@ -35,7 +35,7 @@
       </trans-unit>
       <trans-unit id="tl_module.list_sort.0">
         <source>Order by</source>
-        <target>並べ替え</target>
+        <target>順序</target>
       </trans-unit>
       <trans-unit id="tl_module.list_sort.1">
         <source>Here you can enter a comma seperated list of fields to sort the results by.</source>

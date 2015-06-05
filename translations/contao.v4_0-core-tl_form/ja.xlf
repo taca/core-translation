@@ -1,9 +1,9 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="contao/languages/en/tl_form.php" source-language="en">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_form.php" source-language="en">
     <body>
       <trans-unit id="tl_form.title.0">
         <source>Title</source>
-        <target>名前</target>
+        <target>題名</target>
       </trans-unit>
       <trans-unit id="tl_form.title.1">
         <source>Please enter the form title.</source>
@@ -144,14 +144,6 @@
       <trans-unit id="tl_form.formID.1">
         <source>The form ID is required to trigger a Contao module.</source>
         <target>Contaoのモジュールの動作を開始させるのにフォームのIDが必要です。</target>
-      </trans-unit>
-      <trans-unit id="tl_form.tableless.0">
-        <source>Tableless layout</source>
-        <target>表を使用しないレイアウト</target>
-      </trans-unit>
-      <trans-unit id="tl_form.tableless.1">
-        <source>Render the form without HTML tables.</source>
-        <target>HTMLの表を使用しないでページを生成します。</target>
       </trans-unit>
       <trans-unit id="tl_form.allowTags.0">
         <source>Allow HTML tags</source>
