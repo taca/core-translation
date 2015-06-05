@@ -1,14 +1,6 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="contao/languages/en/tl_form_field.php" source-language="en">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_form_field.php" source-language="en">
     <body>
-      <trans-unit id="FFL.headline.0">
-        <source>Headline</source>
-        <target>Überschrift</target>
-      </trans-unit>
-      <trans-unit id="FFL.headline.1">
-        <source>A custom field to insert a section headline.</source>
-        <target>Ein individuelles Feld zum Einfügen einer Bereichsüberschrift.</target>
-      </trans-unit>
       <trans-unit id="FFL.explanation.0">
         <source>Explanation</source>
         <target>Erklärung</target>
@@ -30,8 +22,8 @@
         <target>Fieldset</target>
       </trans-unit>
       <trans-unit id="FFL.fieldset.1">
-        <source>A container for form fields with an optional legend (only available for tableless forms).</source>
-        <target>Ein Container für Formularfelder mit einer optionalen Legende (nur für tabellenlose Formulare).</target>
+        <source>A container for form fields with an optional legend.</source>
+        <target>Ein Container für Formularfelder mit einer optionalen Legende.</target>
       </trans-unit>
       <trans-unit id="FFL.text.0">
         <source>Text field</source>
@@ -416,14 +408,6 @@
       <trans-unit id="tl_form_field.customTpl.1">
         <source>Here you can overwrite the default form field template.</source>
         <target>Hier können Sie das Standard-Template überschreiben.</target>
-      </trans-unit>
-      <trans-unit id="tl_form_field.addSubmit.0">
-        <source>Add a submit button</source>
-        <target>Absende-Schaltfläche hinzufügen</target>
-      </trans-unit>
-      <trans-unit id="tl_form_field.addSubmit.1">
-        <source>Add a submit button next to the field to create a single line form.</source>
-        <target>Eine Absende-Schaltfläche neben dem Feld einfügen, um ein einzeiliges Formular zu erstellen.</target>
       </trans-unit>
       <trans-unit id="tl_form_field.slabel.0">
         <source>Submit button label</source>

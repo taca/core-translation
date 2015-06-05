@@ -1,5 +1,5 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="contao/languages/en/tl_module.php" source-language="en">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_module.php" source-language="en">
     <body>
       <trans-unit id="tl_module.name.0">
         <source>Title</source>
@@ -176,14 +176,6 @@
       <trans-unit id="tl_module.memberTpl.1">
         <source>Here you can select the form template.</source>
         <target>Hier können Sie das Formulartemplate auswählen.</target>
-      </trans-unit>
-      <trans-unit id="tl_module.tableless.0">
-        <source>Tableless layout</source>
-        <target>Tabellenloses Layout</target>
-      </trans-unit>
-      <trans-unit id="tl_module.tableless.1">
-        <source>Render the form without HTML tables.</source>
-        <target>Das Formular ohne HTML-Tabellen ausgeben.</target>
       </trans-unit>
       <trans-unit id="tl_module.form.0">
         <source>Form</source>
@@ -504,14 +496,6 @@
       <trans-unit id="tl_module.cssID.1">
         <source>Here you can set an ID and one or more classes.</source>
         <target>Hier können Sie eine ID und beliebig viele Klassen eingeben.</target>
-      </trans-unit>
-      <trans-unit id="tl_module.space.0">
-        <source>Space in front and after</source>
-        <target>Abstand davor und dahinter</target>
-      </trans-unit>
-      <trans-unit id="tl_module.space.1">
-        <source>Here you can enter the spacing in front of and after the module in pixel. You should try to avoid inline styles and define the spacing in a style sheet, though.</source>
-        <target>Hier können Sie den Abstand vor und nach dem Modul in Pixeln eingeben. Sie sollten Inline-Styles jedoch nach Möglichkeit vermeiden und den Abstand in einem Stylesheet definieren.</target>
       </trans-unit>
       <trans-unit id="tl_module.disableCaptcha.0">
         <source>Disable the security question</source>

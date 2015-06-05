@@ -90,7 +90,7 @@ If you are moderating comments, you have to log in to the back end to publish it
       </trans-unit>
       <trans-unit id="MSC.com_optInSubject">
         <source>Your subscription on %s</source>
-        <target>%sでの購読</target>
+        <target>%sの購読</target>
       </trans-unit>
       <trans-unit id="MSC.com_optInMessage">
         <source>Hello %s,
