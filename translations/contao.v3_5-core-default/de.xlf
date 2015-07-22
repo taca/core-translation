@@ -6,8 +6,8 @@
         <target>Ein Fehler ist aufgetreten!</target>
       </trans-unit>
       <trans-unit id="ERR.unique">
-        <source>Duplicate entry in field &quot;%s&quot;!</source>
-        <target>Doppelter Eintrag im Feld &quot;%s&quot;!</target>
+        <source>This entry already exists!</source>
+        <target>Dieser Eintrag ist bereits vorhanden!</target>
       </trans-unit>
       <trans-unit id="ERR.mandatory">
         <source>Field &quot;%s&quot; must not be empty!</source>

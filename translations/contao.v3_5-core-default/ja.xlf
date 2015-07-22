@@ -6,8 +6,8 @@
         <target>エラーが発生しました。</target>
       </trans-unit>
       <trans-unit id="ERR.unique">
-        <source>Duplicate entry in field &quot;%s&quot;!</source>
-        <target>&quot;%s&quot;の欄の内容は既に使用していますので、変更してください。</target>
+        <source>This entry already exists!</source>
+        <target>この入力内容は既に存在します。</target>
       </trans-unit>
       <trans-unit id="ERR.mandatory">
         <source>Field &quot;%s&quot; must not be empty!</source>

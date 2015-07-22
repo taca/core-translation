@@ -555,7 +555,7 @@
       </trans-unit>
       <trans-unit id="tl_form_field.pastenew.0">
         <source>Add new at the top</source>
-        <target>Neue Formatdefinition oben erstellen</target>
+        <target>Neues Feld oben erstellen</target>
       </trans-unit>
       <trans-unit id="tl_form_field.pastenew.1">
         <source>Add new after field ID %s</source>
